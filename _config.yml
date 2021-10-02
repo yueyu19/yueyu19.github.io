@@ -85,7 +85,7 @@ author:
   bio              : "Postdoc at Oden Institute, The University of Texas at Austin"
   location         : "Austin, Texas"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=OLBBvYEAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
