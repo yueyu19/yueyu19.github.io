@@ -1,13 +1,15 @@
 ---
-layout: inner
-title: Publication
-permalink: /pub_topic/
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
 ---
-# Publication
 
-For citations, see [my Google Scholar profile](https://scholar.google.com/citations?user=OLBBvYEAAAAJ&hl=en).
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
 
-[[Sort by year]](/pub_year.md) [[Sort by type]](/pub_type.md) [[Sort by topic]](/pub_topic.md)
+[[Sort by year]](/_pages/publications.md) [[Sort by type]](/_pages/pub_type.md) [[Sort by topic]](/_pages/pub_topic.md)
 
 ## Optimization based Control
 
