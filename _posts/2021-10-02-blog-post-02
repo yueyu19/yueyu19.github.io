@@ -1,0 +1,10 @@
+---
+title: 'Proportional-integral projected gradient method: optimization algorithm inspired by mass-spring-damper'
+date: 2021-10-01
+permalink: /posts/2012/08/blog-post-2/
+mathjax: true
+tags:
+  - convex optimization
+  - first-order optimization methods
+  - optimal control
+---
