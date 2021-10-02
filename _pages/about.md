@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-This is Yue Yu.
+I am a postdoc at the Oden Institute, The University of Texas at Austin. My advisor is Professor [Ufuk Topcu](https://www.ae.utexas.edu/people/faculty/faculty-directory/topcu). I obtained my PhD degree from Univsersity of Washinton. My PhD advisor is [Professor behcet Acikmese](https://www.aa.washington.edu/facultyfinder/behcet-acikmese). My research interests include convex optimization, optimization-based control, data-driven control, and network optimization.
