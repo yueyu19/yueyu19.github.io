@@ -9,7 +9,7 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-[[Sort by year]](/_pages/publications.md) [[Sort by type]](/_pages/pub_type.md) [[Sort by topic]](/_pages/pub_topic.md)
+[[Sort by year]](/publications.md) [[Sort by type]](/pub_type.md) [[Sort by topic]](/pub_topic.md)
 
 ## Preprints
 
