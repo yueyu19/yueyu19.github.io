@@ -1,0 +1,12 @@
+---
+title: 'Projection: Building block for constrained optimization methods'
+date: 2021-10-03
+permalink: /posts/2012/08/blog-post-2/
+mathjax: true
+tags:
+  - convex optimization
+---
+
+Constrained optimization is in general a hard problem. But some are easier than the others. 
+In this post, we will discuss a special class of constrained optimization, the projection onto structured convex sets.
+These projections are perhaps the easiest constrained optimization, and a bulding block for many advanced optimization methods.
