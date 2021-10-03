@@ -7,6 +7,6 @@ tags:
   - convex optimization
 ---
 
-Constrained optimization is in general a hard problem. But some are easier than the others. 
+Constrained optimization is in general not easy, usually requires an iterative method. But some of them are easier than the others. 
 In this post, we will discuss a special class of constrained optimization, the projection onto structured convex sets.
 These projections are perhaps the easiest constrained optimization, and a bulding block for many advanced optimization methods.
