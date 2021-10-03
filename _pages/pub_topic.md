@@ -11,7 +11,7 @@ author_profile: true
 
 [[Sort by year]](publications.md) [[Sort by type]](pub_type.md) [[Sort by topic]](pub_topic.md)
 
-## Optimization based Control
+## Conic Optimization and Optimization based Control
 
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-Integral Projected Gradient Method for Infeasibility Detection in Conic Optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 * **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Under review.
@@ -19,7 +19,7 @@ author_profile: true
 * **Yu, Yue**. "Efficient Algorithms for Convex Optimization Based Control." PhD diss., University of Washington, 2021. [[website]](https://www.proquest.com/docview/2529309270?pq-origsite=gscholar&fromopenview=true)
 * **Yu, Yue**, Purnanand Elango, and Behcet Acikmese. "Proportional-Integral Projected Gradient Method for Model Predictive Control." IEEE Control Systems Letters 5, no. 6 (2020): 2174-2179. [[arXiv]](https://arxiv.org/pdf/2009.06980.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/9295329)
 
-## Data-driven control
+## Data-driven Control
 * **Yu, Yue**, Shahriar Talebi, Henk J. van Waarde, Ufuk Topcu, Mehran Mesbahi, and Behcet Acikmese. "On Controllability and Persistency of Excitation in Data-Driven Control: Extensions of Willems' Fundamental Lemma." arXiv preprint arXiv:2102.02953 (2021). [[arXiv]](https://arxiv.org/pdf/2102.02953.pdf) Accepted to 2021 IEEE Conference on Decision and Control.
 
 ## Distributed Optimization
