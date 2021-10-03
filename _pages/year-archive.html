@@ -10,8 +10,6 @@ redirect_from:
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 
-This blog is where I post short articles on research, as well as brief introductions to my recent publications.
-
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
