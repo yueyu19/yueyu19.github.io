@@ -3,5 +3,8 @@ main:
   - title: "Publications"
     url: /publications/     
      
+  - title: "Mini-lectures"
+    url: /teaching/ 
+    
   - title: "Blog"
     url: /year-archive/
