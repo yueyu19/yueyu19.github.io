@@ -44,9 +44,9 @@ Do you see it now? By providing a handy trick in dealing with the inner product 
 
 # Beyond quadratic functions
 
-A key ingrident in the law of cosines is the quadratic function. So what makes quadratic functions so special in the law of cosines? If we use some other functions instead, can we still get results similar to the law of cosines?
+A key ingrident in the law of cosines is the quadratic function. So a natural question is: what makes quadratic functions so special? If we use some other functions instead, can we still get results similar to the law of cosines?
 
-The answer is yes! All we need to do is to replace the quadratic function with something more general, known as the <em>Bregman divergence<em>.  
+The answer is **yes**! All we need to do is to replace the quadratic function with the sso called <em>Bregman divergence</em>.  
 
 To this end, we consider a nonlinear differentiable function $f:\mathbb{R}^n\to\mathbb{R}$. Given two points $x^1, x^2\in\mathbb{R}^n$, the Bregman divergence between $x^1$ and $x^2$ associated with function $f$ is given as follows:
 
