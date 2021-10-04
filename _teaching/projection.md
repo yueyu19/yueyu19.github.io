@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to compute projections onto structured convex sets, and how to use them to solve constrained optimization problems? Find out more in this post.
+Do you know how to compute projections onto structured convex sets, and how to use them to solve constrained optimization problems? Find out more in this lecture.
 
 # Prerequisite
 
