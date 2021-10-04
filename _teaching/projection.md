@@ -48,7 +48,7 @@ The projection is also used in many advanced constrained optimization methods, i
   
 ## Projections onto structured convex sets
   
-  There are many examples where the projection onto a closed convex set can be computed using a simple formulas. Here we provide a few samples of them. 
+  There are many examples for computing projections using simple formulas. Here we provide a few samples of them. 
   
   <img src="/images/box.png" width="150" height="150" img align='left'>
   
