@@ -1,11 +1,12 @@
 ---
 title: 'Projections: Why are they useful and how to compute them'
+collection: teaching
+type: "Convex optimization"
+permalink: /teaching/projection
+venue: online
 date: 2021-10-03
-permalink: /posts/2012/08/blog-post-2/
+location: "Austin, Texas"
 mathjax: true
-tags:
-  - mini-lecture notes
-  - convex optimization
 ---
 
 Do you know how to compute projections onto structured convex sets, and how to use them to solve constrained optimization problems? Find out more in this post.
