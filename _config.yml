@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yue Yu"
+title                    : "Yue Yu's academic website"
 title_separator          : "-"
 name                     : &name "Yue Yu"
 description              : &description "Postdoc at the University of Texas at Austin"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=OLBBvYEAAAAJ&hl=en"
-  email            :
+  email            : "yueyu at utexas dot edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
