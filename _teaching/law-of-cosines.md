@@ -70,7 +70,7 @@ Let's see how the law of cosines is used in the convergence proof of gradient de
 ## Optimization problem and assumptions
 ------
 
-We consider the minimization of a differentiable convex function $f:\mathbb{R}^n\to\mathbb{R}$. We denote the optimizer as $x^\star$, which is known to satisfy the following condition:
+We consider the minimization of a differentiable convex function $f:\mathbb{R}^n\to\mathbb{R}$. We assume there exists $x^\star\in\mathbb{R}^n$ such that $f(x^\star)$ attains its minimum value, in which case the following condition holds:
   
   $$\nabla f(x^\star)=0$$
   
