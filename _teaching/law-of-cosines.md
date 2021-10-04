@@ -1,7 +1,8 @@
 ---
 title: 'The law of cosines: A skeleton key for convergence proofs in optimization'
+collection: teaching
+permalink: /teaching/law-of-cosines
 date: 2021-10-01
-permalink: /posts/2012/08/blog-post-1/
 mathjax: true
 tags:
   - mini-lecture notes
