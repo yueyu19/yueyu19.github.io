@@ -1,0 +1,36 @@
+---
+title: 'Infeasibility detection without matrix inverse'
+date: 2021-10-04
+permalink: /posts/2012/08/pipg/
+tags:
+  - conic optimization
+  - optimal control
+---
+
+Do you remeber the mass-spring-damper model you learned in high-school or college physics classes? Based on this model, we developed a novel method for constrained optimization with better convergence rates. Find out more in this post and [our new paper](https://arxiv.org/pdf/2108.10260.pdf)! 
+
+# Key ideas
+
+## Separating hyperplane
+
+<img src="/images/separate.png" width="200" height="200" img align='right'>
+
+ [distributed optimization](https://arxiv.org/pdf/1911.06273.pdf).
+
+## Averaged operator
+
+<img src="/images/operator.png" width="200" height="200" img align='right' title="Moreau's decomposition">
+
+
+# Numerical examples
+
+## Minimum-time landing
+<img src="/images/landing.png" width="341" height="200" img align='middle'>
+
+## Path-planning using mixed-integer optimization
+
+<img src="/images/mixed.png" width="341" height="200" img align='middle'>
+
+# Related lectures
+
+In the paper, we use the materials on [projections onto convex sets](/_teaching/projection.md), go ahead and check them out! 
