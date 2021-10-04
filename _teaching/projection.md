@@ -19,7 +19,7 @@ The definition of [convex sets](https://en.wikipedia.org/wiki/Convex_set) and [c
 
 # What is a projection?
 
-Given a set $\mathbb{D}$ and a point $x$, a projection of $x$ onto set $\mathbb{D}$ is a point in set $\mathbb{D}$ that is closest to $x$. If set $\mathbb{D}$ is closed and convex, such projection is unique. We denote the projection of $x$ onto set $\mathbb{D}$ as $pi_{\mathbb{D}}[x]$, defined as follows:
+Given a set $\mathbb{D}$ and a point $x$, a projection of $x$ onto set $\mathbb{D}$ is a point in set $\mathbb{D}$ that is closest to $x$. If set $\mathbb{D}$ is closed and convex, such projection is unique. We denote the projection of $x$ onto set $\mathbb{D}$ as $\pi_{\mathbb{D}}[x]$, defined as follows:
 
 $$\pi_{\mathbb{D}}[x]=\underset{y\in\mathbb{D}}{\mbox{argmin}}\,\, ||x-y||,$$
 
