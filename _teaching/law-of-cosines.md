@@ -1,14 +1,12 @@
 ---
 title: 'The law of cosines: A skeleton key for convergence proofs in optimization'
 collection: teaching
+type: "Convex optimization"
 permalink: /teaching/law-of-cosines
 venue: online
-location: "Austin, Texas"
 date: 2021-10-01
+location: "Austin, Texas"
 mathjax: true
-tags:
-  - mini-lecture notes
-  - convex optimization
 ---
 Do you remeber the law of cosines from your high-school math classes? Did you know that it is an incredibly useful technique in the convergence proofs of optimization methods? Find out more in this post.
 
