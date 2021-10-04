@@ -60,7 +60,7 @@ The above equation is also known at the **three-point property of Bregman diverg
   
 If function $f$ is convex, then $B_f(x^1, x^2)$ is always nonnegative. In this case, the Bregman divergence becomes a candidate function for measuring distance to optimum in optimization, as a generalization to quadratic functions. In fact, this generalization is the key difference between [gradient descent method](https://en.wikipedia.org/wiki/Gradient_descent) and [mirror descent method](https://www.sciencedirect.com/science/article/abs/pii/S0167637702002316), two of the most famous first-order optimization methods.   
   
-Finally, the law of cosines is not only usful for optimization problems in vector spaces, but those in manifolds as well. For a detailed discussion, see Lemma 5 in [this paper](http://proceedings.mlr.press/v49/zhang16b.pdf) for an example.  
+Finally, the law of cosines is not only useful for optimization problems in vector spaces, but those in manifolds as well. For a detailed discussion, see Lemma 5 in [this paper](http://proceedings.mlr.press/v49/zhang16b.pdf) for an example.  
 
 
 # How to use it in a convergence proof?
