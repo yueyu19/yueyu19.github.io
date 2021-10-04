@@ -97,7 +97,7 @@ Given equation (4) and (6), we immediately know the following:
   
   $$x^{k+1}-x^k+\alpha (\nabla f(x^k)-\nabla f(x^\star))= 0. $$
   
-Since the inner product of a zero vector with any vector is alywas zero, we conclude that
+Since the inner product of a zero vector with any vector is always zero, we conclude that
   
   $$0=\langle x^{k+1}-x^k+\alpha (\nabla f(x^k)-\nabla f(x^\star)), x^\star-x^{k+1}\rangle.$$
   
@@ -111,7 +111,7 @@ Since the inner product of a zero vector with any vector is alywas zero, we conc
   
 ### Some simple bounds using the assumptions
   
-Furthermore, by using equation (5), we can immediately obtain the following inequalities:
+Next, in order to cancel out the cumbersome Bregman divergence terms, we bound them using quadratic functions. By using equation (5), we can immediately obtain the following inequalities:
   
   $$\alpha B_f(x^{k+1}, x^k)\leq \frac{\alpha \lambda}{2}||x^{k+1}-x^k||^2,$$
   
