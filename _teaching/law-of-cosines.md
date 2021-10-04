@@ -2,6 +2,7 @@
 title: 'The law of cosines: A skeleton key for convergence proofs in optimization'
 collection: teaching
 permalink: /teaching/law-of-cosines
+location: "City, Country"
 date: 2021-10-01
 mathjax: true
 tags:
