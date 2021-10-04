@@ -62,7 +62,9 @@ The projection is also used in many advanced constrained optimization methods, i
   
   The projection of $x$ onto set $\mathbb{D}$ is given by
   
-  $$\pi_{\mathbb{D}}[x]=\min\{\max\{x, l\}, u\}.$$
+  $$\pi_{\mathbb{D}}[x]=\min\{\max\{x, l\}, u\},$$
+  
+  where the $\max$ and $\min$ are evaluated elementwise.
   
   An important special case of the box constraint set is the <em>nonnegative orthant<em>, where 
   
