@@ -48,7 +48,7 @@ A key ingrident in the law of cosines is the quadratic function. So a natural qu
 
 The answer is **yes**! All we need to do is to replace the quadratic function with the sso called <em>Bregman divergence</em>.  
 
-To this end, we consider a nonlinear differentiable function $f:\mathbb{R}^n\to\mathbb{R}$. Given two points $x^1, x^2\in\mathbb{R}^n$, the Bregman divergence between $x^1$ and $x^2$ associated with function $f$ is given as follows:
+To this end, we consider a general differentiable function $f:\mathbb{R}^n\to\mathbb{R}$. Given two points $x^1, x^2\in\mathbb{R}^n$, the Bregman divergence between $x^1$ and $x^2$ associated with function $f$ is given as follows:
 
 $$ B_f(x^1, x^2)=f(x^1)-f(x^2)-\langle \nabla f(x_2), x^1-x^2\rangle.$$  
   
