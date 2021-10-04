@@ -157,7 +157,7 @@ $$\pi_{\mathbb{D}}[x]=\frac{\rho}{\max\{||z||, \rho\}}z.$$
                                                                     
  where $\mathbb{D}_1\times \mathbb{D}_2$ denotes the [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product) of set $\mathbb{D}_1$ and $\mathbb{D}_2$. Furthermore, let
                                                                     
- $$x=\begin{bmatrix}x_1\\ x_2\end{bmatrix} x_1\in\mathbb{R}^{n_1}, \,\, x_2\in\mathbb{R}^{n_2}.$$
+ $$x=\begin{bmatrix}x_1\\ x_2\end{bmatrix},\,\, x_1\in\mathbb{R}^{n_1}, \,\, x_2\in\mathbb{R}^{n_2}.$$
                                                                     
  By using the definition of projection, one can verify the following
                                                                     
