@@ -19,7 +19,7 @@ author_profile: true
 * **Yu, Yue**. "Efficient algorithms for convex optimization based control." PhD diss., University of Washington, 2021. [[website]](https://www.proquest.com/docview/2529309270?pq-origsite=gscholar&fromopenview=true)
 * **Yu, Yue**, Purnanand Elango, and Behcet Acikmese. "Proportional-integral projected gradient method for model predictive control." IEEE Control Systems Letters 5, no. 6 (2020): 2174-2179. [[arXiv]](https://arxiv.org/pdf/2009.06980.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/9295329)
 
-## Data-driven Control
+## Data-Driven Control
 * **Yu, Yue**, Shahriar Talebi, Henk J. van Waarde, Ufuk Topcu, Mehran Mesbahi, and Behcet Acikmese. "On controllability and persistency of excitation in data-driven control: Extensions of Willems' fundamental lemma." arXiv preprint arXiv:2102.02953 (2021). [[arXiv]](https://arxiv.org/pdf/2102.02953.pdf) Accepted to 2021 IEEE Conference on Decision and Control.
 
 ## Distributed Optimization
