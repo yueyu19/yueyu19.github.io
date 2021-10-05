@@ -2,7 +2,7 @@
 title: 'Static traffic equilibra: Supply-demand, queuing, and network optimization'
 collection: teaching
 type: "Network optimization"
-permalink: /teaching/traffic-1
+permalink: /teaching/traffic
 venue: online
 date: 2021-10-03
 location: "Austin, Texas"
