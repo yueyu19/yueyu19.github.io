@@ -9,10 +9,11 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
+Do you know how to find the shortest path in a directed network by solving a linear program? Find out more in this post.
 
 # Prerequisite
 
-The definition of [convex sets](https://en.wikipedia.org/wiki/Convex_set) and [convex functions](https://en.wikipedia.org/wiki/Convex_function).
+[Linear program](https://en.wikipedia.org/wiki/Linear_programming) 
 
-<img src="/images/projection.png" width="250" height="250" img align='left'>
+<img src="/images/projection.png" width="250" height="250" img align='right'>
 
