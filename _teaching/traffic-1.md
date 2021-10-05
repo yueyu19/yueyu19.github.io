@@ -1,5 +1,5 @@
 ---
-title: 'Static traffic equilibra Part 1: Shortest path problem and linear program'
+title: 'Shortest path problem and linear program'
 collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic-1
@@ -23,13 +23,11 @@ A directed network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_
 
 The topology of the network can be encoded by the node-link incidence matrix $E\in\mathbb{R}^{n_l\times n_n}$. The entry $E_{ik}$ in matrix $E$ is are associated with node $i$ and link $k$ as follows:
 
-\begin{equation}
-     E_{ik}=\begin{cases}
+$$E_{ik}=\begin{cases}
     1, & \text{if node \(i\) is the tail of link \(k\),}\\
     -1, & \text{if node \(i\) is the head of link \(k\),}\\
     0, & \text{otherwise.}
-    \end{cases}
-\end{equation} 
+    \end{cases}$$
 
 
 # Shortest path problem
