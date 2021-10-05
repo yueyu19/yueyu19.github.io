@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to predict the traffic volumes in a transportation network using convex optimization? Do you know the difference between Beckmann's equilibra model and Nesterov \& de Palma's equilibra model? Find out more in this post.
+Do you know how to predict the traffic volumes in a transportation network using convex optimization? Do you know the difference between Beckmann's model and Nesterov \& de Palma's model for traffic equilibra? Find out more in this post.
 
 # Prerequisite
 
