@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to predict the traffic volumes in a transportation network using convex optimization? Do you know the difference between Beckmann's model and Nesterov \& de Palma's model for traffic equilibra? Find out more in this post.
+Do you know how to predict the ground traffic volums in a city during a rush hour? Do you know the connection between traffic equilibra, supply-demand model and queuing theory? Find out more in this lecture.
 
 # Prerequisite
 
@@ -34,15 +34,15 @@ $$E_{ik}=\begin{cases}
 
 A path in a directed network is a sequence of distinct links directed in the same direction that connects a collection of distinct nodes.
 
-## Flow matrix
+## Flow vector
 
-## Souce-sink matrix
+## Souce-sink vector
 
 # Wardrop equilibrium principle
 
-# Static traffic equilibra: Beckmann's model
+# Beckmann's model: Each link is a market
 
-# Static traffic equilibra: Nesterov \& de Palma's model
+# Nesterov \& de Palma's model: Each link is a queue
 
 
 
