@@ -106,9 +106,9 @@ Since the inner product of a zero vector with any vector is always zero, we conc
   
 **Aha!** Now we see some inner product terms similar to those in the law of cosines! By applying equation (1) and equation (2) to **the triangle defined by $x^k, x^{k+1}$ and $x^\star$**, we can show the following:
   
-  $$\langle x^{k+1}-x^k, x^\star-x^{k+1}\rangle=\frac{1}{2}||x^k-x^\star||^2-\frac{1}{2}||x^{k+1}-x^\star||^2-\frac{1}{2}||x^{k+1}-x^k||^2,$$
+ $$\langle x^{k+1}-x^k, x^\star-x^{k+1}\rangle=\frac{1}{2}||x^k-x^\star||^2-\frac{1}{2}||x^{k+1}-x^\star||^2-\frac{1}{2}||x^{k+1}-x^k||^2,$$
   
-  $$\alpha \langle \nabla f(x^\star)-\nabla f(x^k), x^{k+1}-x^\star\rangle=\alpha (B_f(x^{k+1}, x^k)-B_f(x^{k+1}, x^\star)-B_f(x^\star, x^k)).$$
+ $$\alpha \langle \nabla f(x^\star)-\nabla f(x^k), x^{k+1}-x^\star\rangle=\alpha (B_f(x^{k+1}, x^k)-B_f(x^{k+1}, x^\star)-B_f(x^\star, x^k)).$$
   
 ### Some simple bounds using the assumptions
   
