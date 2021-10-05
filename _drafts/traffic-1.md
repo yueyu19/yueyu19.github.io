@@ -1,12 +1,18 @@
 ---
-title: 'Optimization methods inspired by mass-spring-damper model'
-date: 2021-10-02
-permalink: /posts/2012/08/blog-post-2/
+title: 'Static traffic equilibra Part 1: Shortest path problem and linear program'
+collection: teaching
+type: "Network optimization"
+permalink: /teaching/traffic-1
+venue: online
+date: 2021-10-03
+location: "Austin, Texas"
 mathjax: true
-tags:
-  - network optimization
 ---
 
-You may have seen the mass-spring-damper model in your college physics classes. But do you know that some of the fastest algorithms for constrained optimization are actually inspired by the mass-spring-damper model? In this post, I will tell you the stories behind these algorithms.   
 
-The [mass-spring-damper model](https://en.wikipedia.org/wiki/Mass-spring-damper_model)
+# Prerequisite
+
+The definition of [convex sets](https://en.wikipedia.org/wiki/Convex_set) and [convex functions](https://en.wikipedia.org/wiki/Convex_function).
+
+<img src="/images/projection.png" width="250" height="250" img align='left'>
+
