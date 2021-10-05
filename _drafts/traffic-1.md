@@ -13,7 +13,13 @@ Do you know how to find the shortest path in a directed network by solving a lin
 
 # Prerequisite
 
-[Linear program](https://en.wikipedia.org/wiki/Linear_programming) 
+[Linear program](https://en.wikipedia.org/wiki/Linear_programming) and its optimality conditions.
 
 <img src="/images/projection.png" width="250" height="250" img align='right'>
+
+# Shortest path problem
+
+# Linear program for shortest path problem
+
+# How to extract the shortest path from the linear program
 
