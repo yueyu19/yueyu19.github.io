@@ -58,7 +58,7 @@ $$ \langle \nabla f(x^1)-\nabla f(x^2), x^3-x^1\rangle=B_f(x^3, x^2)-B_f(x^3, x^
   
 The above equation is also known at the **three-point property of Bregman divergence**. You can check that equation (1) is in fact a special case of equation (2) if
 
-$$f(x)=\frac{1}{2}||x||.$$ 
+$$f(x)=\frac{1}{2}||x||^2.$$ 
   
 If function $f$ is convex, then $B_f(x^1, x^2)$ is always nonnegative. In this case, the Bregman divergence becomes a candidate function for measuring distance to optimum in optimization, as a generalization to quadratic functions. In fact, this generalization is the key difference between [gradient descent method](https://en.wikipedia.org/wiki/Gradient_descent) and [mirror descent method](https://www.sciencedirect.com/science/article/abs/pii/S0167637702002316), two of the most famous first-order optimization methods.   
   
