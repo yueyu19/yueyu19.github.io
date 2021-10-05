@@ -13,7 +13,7 @@ Do you know how to predict the traffic volumes in a transportation network using
 
 # Prerequisite
 
-[Linear program](https://en.wikipedia.org/wiki/Linear_programming) and its optimality conditions.
+[Karush–Kuhn–Tucker_conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
 
 <img src="/images/projection.png" width="250" height="250" img align='right'>
 
