@@ -17,6 +17,10 @@ Do you know how to find the shortest path in a directed network by solving a lin
 
 <img src="/images/projection.png" width="250" height="250" img align='right'>
 
+# Directed networks
+
+A directed network is defined by a set of nodes $\mathcal{N}=\{1, 2, \ldots, n_l\}$ and a set of links $\mathcal{L}=\{1, 2, \ldots, n_l\}$. Each link 
+
 # Shortest path problem
 
 # Linear program for shortest path problem
