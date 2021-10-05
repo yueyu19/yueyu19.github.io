@@ -76,15 +76,13 @@ The projection is also used in many advanced constrained optimization methods, i
   
   $$\pi_{\mathbb{D}}[x]=\max\{x, 0\}.$$
   
-  
-  
 ### Ball
   
   Consider the following set
   
   $$ \mathbb{D}=\{y\in\mathbb{R}^n|\, ||y||\leq \rho\},$$
   
-  where $\rho\in\mathbb{R}$ is the radius of the ball.
+  where $\rho\in (0, \infty)$ is the radius of the ball.
   
   The projection of $x$ onto set $\mathbb{D}$ is given by
   
