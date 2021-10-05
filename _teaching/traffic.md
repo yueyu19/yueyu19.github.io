@@ -1,5 +1,5 @@
 ---
-title: 'Shortest path problem and linear program'
+title: 'Static traffic equilibra: Supply-demand, queuing, and network optimization'
 collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic-1
@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to find the shortest path in a directed network by solving a linear program? Find out more in this post.
+Do you know how to predict the traffic volumes in a transportation network using convex optimization? Do you know the difference between Beckmann's equilibra model and Nesterov \& de Palma's equilibra model? Find out more in this post.
 
 # Prerequisite
 
