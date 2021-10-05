@@ -29,8 +29,9 @@ $$E_{ik}=\begin{cases}
     0, & \text{otherwise.}
     \end{cases}$$
 
-
 # Shortest path problem
+
+A path in a directed network is a sequence of distinct links directed in the same direction that connects a collection of distinct nodes.
 
 # Linear program for shortest path problem
 
