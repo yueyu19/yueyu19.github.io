@@ -83,7 +83,7 @@ for all $x, x'\in\mathbb{R}^n$. Intuitively, the above assumption upper and lowe
 
 ## The gradient descent method
   
-To solve the above minimization problem, we consider the gradient descent method, where a sequence $\{x^1, x^2, x^3, \ldots\}$ is computed recursively as follows:
+To solve the above minimization problem, we consider the gradient descent method, where a sequence $\\{x^1, x^2, x^3, \ldots\\}$ is computed recursively as follows:
   
   $$x^{k+1}=x^k-\alpha \nabla f(x^k),$$
   
