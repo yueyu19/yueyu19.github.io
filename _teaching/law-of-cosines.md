@@ -56,7 +56,7 @@ Using the above definition, you can verify that the following equation holds:
   
 $$ \langle \nabla f(x^1)-\nabla f(x^2), x^3-x^1\rangle=B_f(x^3, x^2)-B_f(x^3, x^1)- B-f(x^1, x^2). $$  
   
-The above equation is also known at the **three-point property of Bregman divergence**. You can check that equation (1) is in fact a special case of equation (2) if
+The above equation is also known at the **three-point property of Bregman divergence**. You can check that equation (1) is in fact the special case of equation (2) where
 
 $$f(x)=\frac{1}{2}||x||^2.$$ 
   
