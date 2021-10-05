@@ -120,7 +120,7 @@ Next, in order to cancel out the cumbersome Bregman divergence terms, we bound t
   
   $$\frac{\alpha \mu}{2}||x^{k+1}-x^\star||^2\leq \alpha B_f(x^{k+1}, x^\star).$$
 
-### Summing up and canceling terms  
+### Summing up inequalities and canceling terms  
 
 Finally, by summing up equation (8-13), and letting $\alpha\leq\frac{1}{\lambda}$, we obtain the following result:
   
