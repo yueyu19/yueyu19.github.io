@@ -67,7 +67,9 @@ Each equation system states that the total incoming flow equals the total outgoi
 
 # Wardrop equilibra model
 
-The Wardrop equilibra model assumes that the cost (e.g., travel time) of traveling on each link is a nondecreasing function of the link flows, and only the path with the lowest sum of link costs are used by the travelers.
+The Wardrop equilibra model assumes that the cost (e.g., travel time) of traveling on each link is a nondecreasing function of the link flows, and only the path with the lowest sum of link costs are used by the travelers. The latter assumption is also known as the <em>Wardrop equilibrium priciple</em>.
+
+The Wardrop equilibrium principle agrees with our intuition that if all travelers want to swicth to an alternative path with lower cost, whenever available. For example, when you see two queues at two checkout counters in a grocery stores, the customers waiting in line will tend to switch to the shorter queue, until both queues have approximated the same length.  
 
 # Optimization-based models for Wardrop equilibra
 
