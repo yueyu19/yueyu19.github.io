@@ -71,7 +71,7 @@ In particular, the $i$-th equality in the above equation system says $\sum_{i=1}
 
 ## Beckmann's model
 
-## Nesterov \& de Palma's model
+## Nesterov & de Palma's model
 
 
 
