@@ -71,7 +71,14 @@ Each equation system states that the total incoming flow equals the total outgoi
 
 ## Beckmann's model
 
+$$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}^{x_k}\psi_k(\alpha)d\alpha\\
+\mbox{subject to} & Ex=s,\,\, x\geq 0.
+\end{array}$$
+
 ## Nesterov & de Palma's model
 
+$$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
+\mbox{subject to} & Ex=s,\,\,x\leq f,\,\, x\geq 0.
+\end{array}$$
 
 
