@@ -73,7 +73,7 @@ The last assumption above agrees with our intuitions that if all travelers want 
 
 # Optimization models for traffic equilibra
 
-There are different optimization-based models for computing traffic flow vectors that satisfies the Wardrop equilibrium principle, each based on different assumption on the link traffic dynamics. Here we discuss two of the most common ones. 
+There are different optimization-based models for computing traffic flow vectors that satisfies the Wardrop equilibrium principle, each based on different assumption on the link traffic dynamics. Here we discuss two of the most popular ones. 
 
 ## Beckmann's model
 
