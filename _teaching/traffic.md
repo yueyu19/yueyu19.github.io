@@ -55,7 +55,7 @@ The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose $
 
 ## Souce-sink vector
 
-For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^n$, whose $i$-th entry $s_i$ ($i\neq n$) denotes the amount of travellers starting their trips from node $i$, also know as the traffic demand for origin-destination pair $(i, n)$. Further, we let $s_n=-\sum_{i=1}^{n-1} s_i$.
+For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^n$, whose $i$-th ($i\neq n$) entry $s_i$ denotes the amount of travellers starting their trips from node $i$, also know as the traffic demand for origin-destination pair $(i, n)$. Further, we let $s_n=-\sum_{i=1}^{n-1} s_i$.
 
 ## Flow conservation constraints
 
