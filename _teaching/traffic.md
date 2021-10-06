@@ -19,7 +19,7 @@ Do you know how to predict the ground traffic volums in a city during a rush hou
 
 We will introduce some basic concepts in static traffic equilibra model. Thoughout this post we will use an example network given in the figure on the right. 
 
-# Transportation networks
+# Transportation network model
 
 A transportation network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, m\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, m\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. Each node denotes an intersetion of roads, and an link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
 
@@ -65,9 +65,9 @@ $$ Ex=s.$$
 
 Each equation system states that the total incoming flow equals the total outgoing flow. If $s_i>0$ then an amount of $s_i$ incoming flow is <em>generated</em> at node $i$. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow vanishes. 
 
-# Wardrop equilibra model
+# Wardrop equilibrium principle
 
-The Wardrop equilibra model assumes that the cost (e.g., travel time) of traveling on each link is a nondecreasing function of the link flows, and only the path with the lowest sum of link costs are used by the travelers. The latter assumption is also known as the <em>Wardrop equilibrium priciple</em>.
+The Wardrop equilibrium principle says that the cost (e.g., travel time) of traveling on each link is a nondecreasing function of the link flows, and only the paths with the lowest sum of link costs are used by the travelers.
 
 The Wardrop equilibrium principle agrees with our intuition that if all travelers want to swicth to an alternative path with lower cost, whenever available. For example, when you see two queues at two checkout counters in a grocery stores, the customers waiting in line will tend to switch to the shorter queue, until both queues have approximated the same length.  
 
