@@ -67,7 +67,7 @@ Each equation system states that the total incoming flow equals the total outgoi
 
 # Wardrop equilibrium principle
 
-# Optimization-based models for Traffic equilibra
+# Optimization-based models for traffic equilibra
 
 ## Beckmann's model
 
