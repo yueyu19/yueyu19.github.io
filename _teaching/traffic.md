@@ -19,9 +19,11 @@ Do you know how to predict the ground traffic volums in a city during a rush hou
 
 We will introduce some basic concepts in static traffic equilibra model. Thoughout this post we will use an example network given in the figure on the right. 
 
-# Directed networks
+# Directed transportation networks
 
-A directed network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_l\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, n_l\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. In our example network, we have $n_n=4$ and $n_l=5$. 
+A directed transportation network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_l\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, n_l\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. Each node denotes an intersetion of roads, and an link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
+
+In our example network, we have $n_n=4$ and $n_l=5$. 
 
 ## Node-edge incidence matrix
 
@@ -44,11 +46,15 @@ $$
 
 ## Path    
 
-A path in a directed network is a sequence of distinct links directed in the same direction that connects a collection of distinct nodes. In our example network, there are three paths from node 1 and node 4, each connects one of the following set of the nodes: $\\{1, 2, 4\\}$, $\\{1, 3, 4\\}$, $\\{1, 2, 3 4\\}$.
+A path is a sequence of distinct links directed in the same direction that connects a collection of distinct nodes. In our example network, there are three paths from node 1 and node 4, each connects one of the following set of the nodes: $\\{1, 2, 4\\}$, $\\{1, 3, 4\\}$, $\\{1, 2, 3, 4\\}$.
 
 ## Flow vector
 
+The flow vector $x\in\mathbb{R}^{n_l}$ is an elementwise nonnegative vector, whose $i$-th entry $x_k$ denotes the amount of traveller exiting link $k$ per unit time (e.g., a day, an hour). 
+
 ## Souce-sink vector
+
+For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n_n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^{n_n}$, whose $i$-th entry $x_i$ ($i\neq n_n$) denotes the amount of travellers starting their trips from node $i$. Further, we let $x_{n_n}=-\sum_{i=1}^{n_n-1} x_i$.
 
 # Wardrop equilibrium principle
 
