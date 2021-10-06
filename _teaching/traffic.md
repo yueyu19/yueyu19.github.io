@@ -55,7 +55,7 @@ The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose e
 In our example network, suppose the link flow is given as follows:
 
 | link | flow |
-|-------|--------|
+|----|----|
 | $(1, 2)$ | 0.6|
 | $(1, 3)$ | 0.4|
 | $(2, 3)$ | 0.7|
