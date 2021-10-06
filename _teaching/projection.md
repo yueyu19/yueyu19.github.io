@@ -165,7 +165,7 @@ $$\pi_{\mathbb{D}}[x]=\frac{\rho}{\max\{||z||, \rho\}}z.$$
                                                                     
  In other words, if set $\mathbb{D}$ is defined by constraints that are separable across different segments of a vector, then computing the projection of vector $x$ onto set $\mathbb{D}$ reduces to the projections of each segment of vector $x$. This fact is particularly useful in the context of trajectory optimization in optimal control problems, see my recent work [here](https://arxiv.org/pdf/2108.10260.pdf) for some examples. 
                                                                     
-# Want some more examples?
+# Want more examples?
                                                                     
 The projection formulas used in this post are mostly taken from the Chapter 29 in [the book by Bauschke and Combettes](https://www.springer.com/gp/book/9783319483108). For example, the projection onto an icecream cone is discussed in Exercise 29.12. The projection onto the intersection of a cone and a ball, however, is published more recnetly; see Theorem 7.1 [here](http://arxiv-export-lb.library.cornell.edu/pdf/1708.00585) for details. 
                                                                     
