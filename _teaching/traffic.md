@@ -67,7 +67,7 @@ Each equation system states that the total incoming flow equals the total outgoi
 
 # Wardrop equilibria
 
-Wardrop equilibra is a model for traffic equilibra that assume that the link flows and traffic demands approximately remain constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. In addition, the cost of traveling on each link (e.g., time, fuel cost) is a nondecreasing function of its link flow, as a result of congestion effects. Finally, only the paths with the lowest sum of link costs are used by the travelers.
+[Wardrop equilibra](https://en.wikipedia.org/wiki/John_Glen_Wardrop) is a model for traffic equilibra where the link flows and traffic demands remain approximately constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. In addition, the cost of traveling on each link (e.g., time, fuel cost) is a nondecreasing function of its link flow, as a result of congestion effects. Finally, only the paths with the lowest sum of link costs are used by the travelers.
 
 The last assumption above agrees with our intuitions that if all travelers want to swicth to an alternative path with lower cost, whenever available. For example, when you see two queues at two checkout counters in a grocery stores, the waiting customers tend to switch to the shorter queue, until both queues have approximated the same length.  
 
