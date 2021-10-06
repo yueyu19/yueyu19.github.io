@@ -17,7 +17,7 @@ Do you know how to numerically predict the traffic equilibra patterns in a trans
 
 <img src="/images/graph.png" width="250" height="250" img align='right'>
 
-First, we introduce some basic concepts in static traffic equilibra model. Thoughout this post we will use an example network given in the figure on the right. 
+We will first introduce some basic concepts in transportation networks, then discuss two optimization-based model for traffic equilibra. Thoughout this lecture we will use the example network given in the figure on the right. 
 
 # Transportation network basics
 
