@@ -56,7 +56,6 @@ In our example network, suppose the link flow is given as follows:
 
 | link | flow |
 |-------|--------|
-|<img width=10/>|<img width=10/>|
 | $(1, 2)$ | 0.6|
 | $(1, 3)$ | 0.4|
 | $(2, 3)$ | 0.7|
