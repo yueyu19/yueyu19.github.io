@@ -55,7 +55,15 @@ The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose $
 
 ## Souce-sink vector
 
-For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^n$, whose $i$-th entry $x_i$ ($i\neq n$) denotes the amount of travellers starting their trips from node $i$. Further, we let $x_n=-\sum_{i=1}^{n-1} x_i$.
+For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^n$, whose $i$-th entry $x_i$ ($i\neq n$) denotes the amount of travellers starting their trips from node $i$, also know as the traffic demand for origin-destination pair $(i, n)$. Further, we let $x_n=-\sum_{i=1}^{n-1} x_i$.
+
+## Flow conservation constraints
+
+The node-link incidence matrix, flow vector and source-sink vector jointly satisfy the <em>flow conservation constraint</em>, given by the following system of linear equations:
+
+$$ Ex=s.$$
+
+In particular, the $i$-th equality in the above equation system says $\sum_{i=1}^k E_{ik}x_k=s_i$. If $s_i=0$, this constraint says the sum of incoming flows equals the sum of outgoing ones. If $s_i\neq 0$, the constraint says the difference between the sum of incoming and outgoing flows is the  
 
 # Wardrop equilibrium principle
 
