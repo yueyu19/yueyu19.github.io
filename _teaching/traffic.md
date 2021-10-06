@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to predict the ground traffic volums in a city during a rush hour? Do you know the connection between traffic equilibra, supply-demand model and queuing theory? Find out more in this lecture.
+Do you know how to predict the ground traffic volumes in a city during rush hours? Do you know the connection between traffic equilibra, supply-demand model and queuing theory? Find out more in this lecture.
 
 # Prerequisite
 
