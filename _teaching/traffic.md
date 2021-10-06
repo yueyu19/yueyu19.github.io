@@ -25,7 +25,7 @@ A transportation network contains a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n
 
 In our example network, we have $n=4$ and $m=5$. 
 
-## Node-edge incidence matrix
+## Node-link incidence matrix
 
 The node-link incidence matrix $E\in\mathbb{R}^{m\times n}$ describes the topology of the network. The entry $E_{ik}$ in matrix $E$ is associated with node $i$ and link $k$ as follows:
 
@@ -63,6 +63,21 @@ The node-link incidence matrix, flow vector and source-sink vector jointly satis
 $$ Ex=s.$$
 
 Each equation in the above system states that the total incoming flow equals the total outgoing flow. If $s_i>0$, then node $i$ creates an amount of $s_i$ incoming flow is <em>created</em>. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow vanishes. 
+
+In our example network, given the node-link incidence matrix in equation (2), the following flow and source-sink vectors satisfy the flow conservation constraints:
+
+$$ x=\begin{bmatrix}
+0.6\\
+0.4\\
+0.7\\
+0.9\\
+1.1
+\end{bmatrix},\,\, s=\begin{bmatrix}
+1\\
+1\\
+0\\
+-2
+\end{bmatrix}.$$
 
 # Wardrop equilibria
 
