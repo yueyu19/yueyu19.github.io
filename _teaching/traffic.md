@@ -63,11 +63,13 @@ The node-link incidence matrix, flow vector and source-sink vector jointly satis
 
 $$ Ex=s.$$
 
-Each equation system states that the total incoming flow equals the total outgoing flow. If $s_i>0$ then an amount of $s_i$ incoming flow is <em>generated</em> at node $i$. For node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow vanishes. 
+Each equation system states that the total incoming flow equals the total outgoing flow. If $s_i>0$ then an amount of $s_i$ incoming flow is <em>generated</em> at node $i$. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow vanishes. 
 
-# Wardrop equilibrium principle
+# Wardrop equilibra model
 
-# Optimization-based models for traffic equilibra
+The Wardrop equilibra model assumes that the cost (e.g., travel time) of traveling on each link is a nondecreasing function of the link flows, and only the path with the lowest sum of link costs are used by the travelers.
+
+# Optimization-based models for Wardrop equilibra
 
 ## Beckmann's model
 
