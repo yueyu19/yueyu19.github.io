@@ -75,7 +75,7 @@ The Wardrop equilibrium principle agrees with our intuition that if all traveler
 
 ## Beckmann's model
 
-$$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}^{x_k} t_k(\alpha)d\alpha\\
+$$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}^{x_k} \ell_k(\alpha)d\alpha\\
 \mbox{subject to} & Ex=s,\,\, x\geq 0.
 \end{array}$$
 
