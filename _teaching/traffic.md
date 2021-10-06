@@ -13,7 +13,7 @@ Do you know how to predict the ground traffic volums in a city during a rush hou
 
 # Prerequisite
 
-[directed graph](https://en.wikipedia.org/wiki/Directed_graph) and (optional) [Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
+[Directed graph](https://en.wikipedia.org/wiki/Directed_graph) and (optional) [Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
 
 <img src="/images/graph.png" width="250" height="250" img align='right'>
 
