@@ -34,6 +34,7 @@ $$E_{ik}=\begin{cases}
     -1, & \text{if node \(i\) is the head of link \(k\),}\\
     0, & \text{otherwise.}
     \end{cases}$$
+    
 In our example network, we have
 
 $$E=\begin{bmatrix}
