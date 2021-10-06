@@ -89,7 +89,7 @@ The last assumption agrees with our intuitions that all travelers want to swicth
 
 There are different optimization-based models for computing traffic flow vectors that satisfy the Wardrop equilibrium principle, each based on different assumptions on the link traffic dynamics. Here we discuss two popular ones. 
 
-## Beckmann model
+## Beckmann model: supply and demand
 
 The Beckmann model considers the traffic dynamics on each link as a market: the supply side corresponds to the link itself, selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of exiting a link increaes in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
 
@@ -105,7 +105,7 @@ First introduced in the 1960s, Bekcmann model has been used widely in evaluating
 * There is no capacity constraints on link flows. In practice, the flow on each link always has an easy-to-estimate capacity, usually determined by number of lanes and green light time. Without these capacity constraints, Beckmann model can give flow patterns far from reasonable estimates. There are several attemptes to add additional capacity constraints in Beckmann model, see [the paper by Larsson and Patriksson](https://www.sciencedirect.com/science/article/pii/0191261595000167) for an example. However, they caused unwanted side effects, as discussed [the paper by Correa et al](https://pubsonline.informs.org/doi/abs/10.1287/moor.1040.0098). 
 * The assumption of travel time increases with flow is problematic. Intuitively, the travel time on a link should increase with the amount of travelers (known as the link loading), not the amount of travelers exiting the link.  
 
-## Nesterov & de Palma model
+## Nesterov & de Palma model: queuing
 
 As an effort to address the limitations in Beckmann model, Nesterov & de Palma proposed an alternative model. Instead of a market, this model considers the traffic dynamics on each link as a queue, whose departure rate is upper bounded, and waiting time is lower bounded. As a result, the flow on each link has an explicit upper bound, and the travel time on link $k$ has an explicit lower bound. We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel time lower bounds, where $f_k$ and $c_k$ are associated with link $k$.
 
