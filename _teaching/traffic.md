@@ -115,7 +115,7 @@ There are different optimization-based models for computing traffic flow vectors
 
 ## Beckmann model: supply and demand
 
-The Beckmann model considers the traffic dynamics on each link as a market: the supply side corresponds to the link itself, selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of exiting a link increaes in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
+Beckmann model considers each link as a market: the supply side corresponds to the link itself, selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of exiting a link increaes in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
 
 Under these assumptions, you can solve for the equilibrium flow pattern using the following convex optimization problem:
 
@@ -131,7 +131,7 @@ First introduced in the 1960s, Bekcmann model has been used widely in evaluating
 
 ## Nesterov & de Palma model: queuing
 
-As an effort to address the limitations in Beckmann model, Nesterov & de Palma proposed an alternative model. Instead of a market, this model considers the traffic dynamics on each link as a queue, whose departure rate is upper bounded, and waiting time is lower bounded. As a result, the flow on each link has an explicit upper bound, and the travel time on link $k$ has an explicit lower bound. We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel time lower bounds, where $f_k$ and $c_k$ are associated with link $k$.
+As an effort to address the limitations in Beckmann model, Nesterov & de Palma proposed an alternative model. Instead of a market, this model considers each link as a queue. In each queue, the departure rate (or service rate) is upper bounded, and the waiting time is lower bounded. As a result, the flow on each link has an explicit upper bound, and the travel time on link $k$ has an explicit lower bound. We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel time lower bounds, where $f_k$ and $c_k$ are associated with link $k$.
 
 Under these assumptions, you can solve for the equilibrium flow pattern using the following linear program:
 
