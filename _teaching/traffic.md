@@ -99,15 +99,15 @@ The node-link incidence matrix, flow vector and source-sink vector jointly satis
 
 $$ Ex=s.$$
 
-Each equation in the above system states that the total incoming flow equals the total outgoing flow. If $s_i>0$, then node $i$ <em>grnerates</em> an amount of $s_i$ incoming flow. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow <em>vanishes</em>. 
+These equations state that, at each node, the total incoming flow equals the total outgoing flow. If $s_i>0$, then node $i$ <em>generates</em> an amount of $s_i$ incoming flow. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow <em>vanishes</em>. 
 
 You can check that the node-link incidence matrix in equation (2), the flow vector in equation (3), and the source-sink vector in equation (4) satisfy the flow conservation constraints in equation (5).
 
 ## Wardrop equilibria
 
-[Wardrop equilibra](https://en.wikipedia.org/wiki/John_Glen_Wardrop) is a model for static traffic equilibra, where the link flows and traffic demands remain approximately constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. In addition, the cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects. Finally, only the paths with the lowest sum of link costs are used by the travelers.
+[Wardrop equilibra](https://en.wikipedia.org/wiki/John_Glen_Wardrop) is a class of models for traffic patterns, where the link flows and traffic demands remain approximately constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. Wardrop equilibra assume the cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects. Furthermore, only the paths with the lowest sum of link costs are used by the travelers.
 
-The last assumption agrees with our intuitions that all travelers want to swicth to an alternative path with lower cost, whenever available. For example, when there are two queues in a grocery stores for check-outs, the waiting customers tend to switch to the shorter queue, until both queues have approximated the same length.  
+The last assumption agrees with our intuitions that all travelers want to swicth to an alternative path with lower cost, whenever available. For example, when there are two queues at a grocery stores checkout, the waiting customers tend to switch to the shorter queue, until both queues have approximated the same length.  
 
 # Optimization-based models for traffic equilibra
 
