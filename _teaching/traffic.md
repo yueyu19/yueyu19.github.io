@@ -79,13 +79,13 @@ $$ x=\begin{bmatrix}
 -2
 \end{bmatrix}.$$
 
-# Wardrop equilibria
+## Wardrop equilibria
 
 [Wardrop equilibra](https://en.wikipedia.org/wiki/John_Glen_Wardrop) is a model for static traffic equilibra, where the link flows and traffic demands remain approximately constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. In addition, the cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects. Finally, only the paths with the lowest sum of link costs are used by the travelers.
 
 The last assumption agrees with our intuitions that all travelers want to swicth to an alternative path with lower cost, whenever available. For example, when there are two queues in a grocery stores for check-outs, the waiting customers tend to switch to the shorter queue, until both queues have approximated the same length.  
 
-# Optimization models for traffic equilibra
+# Optimization-based models for traffic equilibra
 
 There are different optimization-based models for computing traffic flow vectors that satisfy the Wardrop equilibrium principle, each based on different assumptions on the link traffic dynamics. Here we discuss two popular ones. 
 
