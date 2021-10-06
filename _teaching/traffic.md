@@ -101,8 +101,8 @@ $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
 \end{array}$$
 
 If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above linear program, then $x^\star$ immediately satisfies the flow conservation constraints and link capacity constraints. Furthermore, using the Karush–Kuhn–Tucker conditions, you can also prove that the Wardrop equilibrium principle holds, where the cost of exiting link $k$ at equilibra equals $c_k+p_k$. Here $p_k$ is the travel cost increase caused by congestion, which satisfies the following conditions:
-* if $x_k<f_k$, then $p_k=0$,
-* if $x_k=f_k$, then $p_k\geq 0$.
+* if $x_k^\star<f_k$, then $p_k^\star=0$,
+* if $x_k^\star=f_k$, then $p_k^\star\geq 0$.
 
 # Want more references?
 
