@@ -52,9 +52,45 @@ A path is a sequence of distinct links directed in the same direction that conne
 
 The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose entry $x_k$ denotes the amount of travelers exiting link $k$ per unit time (e.g., a day, an hour). 
 
+In our example network, suppose the link flow is given as follows:
+
+| link | flow |
+| $(1, 2)$ | 0.6|
+| $(1, 3)$ | 0.4|
+| $(2, 3)$ | 0.7|
+| $(2, 4)$ | 0.7|
+| $(3, 4)$ | 1.1|
+
+Then the flow vector $x$ is as follows:
+
+$$x=\begin{bmatrix}
+0.6\\
+0.4\\
+0.7\\
+0.7\\
+1.1
+\end{bmatrix}.$$
+
 ## Souce-sink vector
 
 For simplicity, we assume that all travellers in the transporttaion network have the same destination, given by node $n$. The source-sink vector $s\in\mathbb{R}^n$ describes the the traffic demand in the network. Its $i$-th ($i\neq n$) entry $s_i$ denotes the amount of travellers traveling from node $i$ to node $n$ per unit time (also know as the traffic demand for origin-destination pair $(i, n)$). Further, we let $s_n=-\sum_{i=1}^{n-1} s_i$.
+
+In our example network, suppose that the traffic demand is as follows:
+
+|origin-destination pair| demand|
+| (1, 4) | 1 |
+| (2, 4) | 0.8 |
+| (3, 4) | 0 |
+
+
+a possible source-cink vector is as follows. Assume the traffic demand from node $1$ to node $4$ is $1$, and the traffic demand from node $2$ to node $4$ is $0.8$, 
+
+$$s=\begin{bmatrix}
+1\\
+0.8\\
+0\\
+-1.8
+\end{bmatrix}.$$
 
 ## Flow conservation constraints
 
@@ -66,18 +102,7 @@ Each equation in the above system states that the total incoming flow equals the
 
 In our example network, given the node-link incidence matrix in equation (2), the following flow and source-sink vectors satisfy the flow conservation constraints:
 
-$$ x=\begin{bmatrix}
-0.6\\
-0.4\\
-0.7\\
-0.9\\
-1.1
-\end{bmatrix},\,\, s=\begin{bmatrix}
-1\\
-1\\
-0\\
--2
-\end{bmatrix}.$$
+$$ ,\,\, .$$
 
 ## Wardrop equilibria
 
