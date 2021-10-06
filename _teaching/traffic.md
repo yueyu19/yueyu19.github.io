@@ -55,6 +55,7 @@ The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose e
 In our example network, suppose the link flow is given as follows:
 
 | link | flow |
+|-------|--------|
 | $(1, 2)$ | 0.6|
 | $(1, 3)$ | 0.4|
 | $(2, 3)$ | 0.7|
@@ -78,12 +79,12 @@ For simplicity, we assume that all travellers in the transporttaion network have
 In our example network, suppose that the traffic demand is as follows:
 
 |origin-destination pair| demand|
+|-------|--------|
 | (1, 4) | 1 |
 | (2, 4) | 0.8 |
 | (3, 4) | 0 |
 
-
-a possible source-cink vector is as follows. Assume the traffic demand from node $1$ to node $4$ is $1$, and the traffic demand from node $2$ to node $4$ is $0.8$, 
+Then the source-sink vector is as follows: 
 
 $$s=\begin{bmatrix}
 1\\
@@ -100,9 +101,7 @@ $$ Ex=s.$$
 
 Each equation in the above system states that the total incoming flow equals the total outgoing flow. If $s_i>0$, then node $i$ creates an amount of $s_i$ incoming flow is <em>created</em>. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow vanishes. 
 
-In our example network, given the node-link incidence matrix in equation (2), the following flow and source-sink vectors satisfy the flow conservation constraints:
-
-$$ ,\,\, .$$
+You can check that the node-link incidence matrix in equation (2), the flow vector in equation (3), and the source-sink vector in equation (4) satisfy the flow conservation constraints in equation (5).
 
 ## Wardrop equilibria
 
