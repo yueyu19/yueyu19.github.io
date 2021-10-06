@@ -51,7 +51,7 @@ A path is a sequence of distinct links directed in the same direction that conne
 
 ## Flow vector
 
-The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose $i$-th entry $x_k$ denotes the amount of traveller exiting link $k$ per unit time (e.g., a day, an hour). 
+The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose $k$-th entry $x_k$ denotes the amount of traveller exiting link $k$ per unit time (e.g., a day, an hour). 
 
 ## Souce-sink vector
 
