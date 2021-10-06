@@ -99,7 +99,7 @@ The node-link incidence matrix, flow vector and source-sink vector jointly satis
 
 $$ Ex=s.$$
 
-Each equation in the above system states that the total incoming flow equals the total outgoing flow. If $s_i>0$, then node $i$ creates an amount of $s_i$ incoming flow is <em>created</em>. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow vanishes. 
+Each equation in the above system states that the total incoming flow equals the total outgoing flow. If $s_i>0$, then node $i$ <em>grnerates</em> an amount of $s_i$ incoming flow. At node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow <em>vanishes</em>. 
 
 You can check that the node-link incidence matrix in equation (2), the flow vector in equation (3), and the source-sink vector in equation (4) satisfy the flow conservation constraints in equation (5).
 
