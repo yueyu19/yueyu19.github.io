@@ -1,5 +1,5 @@
 ---
-title: 'Traffic equilibra: Supply-demand, queuing, and network optimization'
+title: 'Traffic equilibra: Supply-demand, queuing, and convex optimization'
 collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic
@@ -73,18 +73,25 @@ The last assumption above agrees with our intuitions that if all travelers want 
 
 # Optimization models for traffic equilibra
 
-There are different optimization-based models for computing traffic flow vectors that satisfies the Wardrop equilibrium principle, each based on different assumption on the link traffic dynamics. Here we discuss two of the most popular ones. 
+There are different optimization-based models for computing traffic flow vectors that satisfies the Wardrop equilibrium principle, each based on different model of the link traffic dynamics. Here we discuss two of the most popular ones. 
 
-## Beckmann's model
+## Beckmann model
+
+The Beckmann model consider the traffic dynamics on each link as a market: the supply side corresponds to the link itself,selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of using a link in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of using link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
+
+Under the above assumptions, you can solve for the equilibrium flow in the network using the following convex optimization problem:
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}^{x_k} \ell_k(\alpha)d\alpha\\
 \mbox{subject to} & Ex=s,\,\, x\geq 0.
 \end{array}$$
 
-[Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
+If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above optimization problem, then $x^\star$ immediately satisfies the flow conservation constraints. Furthermore, using the [Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions), you can also prove that the Wardrop equilibrium principle holds, where, at equilibra, the cost of using link $k$ equals $\ell_k(x_k)$.
 
+First introduced in the 1960s, Bekcman model has been used widely in evaluating and designing transportation network. However, there are several limitations in this model:
+* There is no capacity constraints on link flows. In practice, the flow on each link always has a easy-to-estimate capacity, usually determined by number of lanes and gren light time. Without these capacity constraints, it is challenging to tune the the parameters in Beckmann model (e.g., those in function $\ell_k$). As a result, Beckmann model can give flow patterns far from a reasonable estimate.
+* The assumption of travel time increases with flow is problematic. Intuitively, the travel time on a link should increase with the amount of travelers (known as the link loading), not the amount of travelers exiting the link.  
 
-## Nesterov & de Palma's model
+## Nesterov & de Palma model
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
 \mbox{subject to} & Ex=s,\,\,x\leq f,\,\, x\geq 0.
