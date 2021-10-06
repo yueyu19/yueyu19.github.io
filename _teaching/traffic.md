@@ -55,7 +55,7 @@ The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose $
 
 ## Souce-sink vector
 
-For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^n$, whose $i$-th entry $x_i$ ($i\neq n$) denotes the amount of travellers starting their trips from node $i$, also know as the traffic demand for origin-destination pair $(i, n)$. Further, we let $x_n=-\sum_{i=1}^{n-1} x_i$.
+For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^n$, whose $i$-th entry $s_i$ ($i\neq n$) denotes the amount of travellers starting their trips from node $i$, also know as the traffic demand for origin-destination pair $(i, n)$. Further, we let $s_n=-\sum_{i=1}^{n-1} s_i$.
 
 ## Flow conservation constraints
 
@@ -63,7 +63,7 @@ The node-link incidence matrix, flow vector and source-sink vector jointly satis
 
 $$ Ex=s.$$
 
-In particular, the $i$-th equality in the above equation system says $\sum_{i=1}^k E_{ik}x_k=s_i$. If $s_i=0$, this constraint says the sum of incoming flows equals the sum of outgoing ones. If $s_i\neq 0$, the constraint says the difference between the sum of incoming and outgoing flows is the  
+Each equation system states that the total incoming flow equals the total outgoing flow. If $s_i>0$ then an amount of $s_i$ incoming flow is <em>generated</em> at node $i$. For node $n$, a total amount of $\sum_{i=1}^{n-1} s_i$ incoming flow vanishes. 
 
 # Wardrop equilibrium principle
 
