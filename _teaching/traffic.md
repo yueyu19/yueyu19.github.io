@@ -13,13 +13,13 @@ Do you know how to predict the ground traffic volums in a city during a rush hou
 
 # Prerequisite
 
-[Karush–Kuhn–Tucker_conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
+[directed graph](https://en.wikipedia.org/wiki/Directed_graph) and [Karush–Kuhn–Tucker_conditions (optional)](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
 
-<img src="/images/projection.png" width="250" height="250" img align='right'>
+<img src="/images/graph.png" width="250" height="250" img align='right'>
 
 # Directed networks
 
-A directed network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_l\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, n_l\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. Each link $k$ is also associated with a link cost $c_k\in (0, \infty)$. 
+A directed network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_l\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, n_l\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. For the network above, we have $n_n=4$ and $n_l=5$. 
 
 ## Node-edge incidence matrix
 
@@ -30,6 +30,8 @@ $$E_{ik}=\begin{cases}
     -1, & \text{if node \(i\) is the head of link \(k\),}\\
     0, & \text{otherwise.}
     \end{cases}$$
+For 
+
 ## Path    
 
 A path in a directed network is a sequence of distinct links directed in the same direction that connects a collection of distinct nodes.
