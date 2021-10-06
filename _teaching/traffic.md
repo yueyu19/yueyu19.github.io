@@ -1,5 +1,5 @@
 ---
-title: 'Static traffic equilibra: Supply-demand, queuing, and network optimization'
+title: 'Traffic equilibra: Supply-demand, queuing, and network optimization'
 collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic
@@ -19,9 +19,9 @@ Do you know how to predict the ground traffic volums in a city during a rush hou
 
 We will introduce some basic concepts in static traffic equilibra model. Thoughout this post we will use an example network given in the figure on the right. 
 
-# Directed transportation networks
+# Transportation networks
 
-A directed transportation network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, m\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, m\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. Each node denotes an intersetion of roads, and an link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
+A transportation network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, m\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, m\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. Each node denotes an intersetion of roads, and an link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
 
 In our example network, we have $n=4$ and $m=5$. 
 
@@ -59,7 +59,7 @@ For simplicity, we assume all travellers in the transporttaion network have the 
 
 # Wardrop equilibrium principle
 
-# Optimization-based models for static traffic equilibra
+# Optimization-based models for Traffic equilibra
 
 ## Beckmann's model
 
