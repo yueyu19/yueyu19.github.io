@@ -21,13 +21,13 @@ We will introduce some basic concepts in static traffic equilibra model. Thougho
 
 # Directed transportation networks
 
-A directed transportation network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_l\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, n_l\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. Each node denotes an intersetion of roads, and an link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
+A directed transportation network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, m\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, m\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. Each node denotes an intersetion of roads, and an link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
 
-In our example network, we have $n_n=4$ and $n_l=5$. 
+In our example network, we have $n=4$ and $m=5$. 
 
 ## Node-edge incidence matrix
 
-The topology of the network can be encoded by the node-link incidence matrix $E\in\mathbb{R}^{n_l\times n_n}$. The entry $E_{ik}$ in matrix $E$ is are associated with node $i$ and link $k$ as follows:
+The topology of the network can be encoded by the node-link incidence matrix $E\in\mathbb{R}^{m\times n}$. The entry $E_{ik}$ in matrix $E$ is are associated with node $i$ and link $k$ as follows:
 
 $$E_{ik}=\begin{cases}
     1, & \text{if node \(i\) is the tail of link \(k\),}\\
@@ -51,11 +51,11 @@ A path is a sequence of distinct links directed in the same direction that conne
 
 ## Flow vector
 
-The flow vector $x\in\mathbb{R}^{n_l}$ is an elementwise nonnegative vector, whose $i$-th entry $x_k$ denotes the amount of traveller exiting link $k$ per unit time (e.g., a day, an hour). 
+The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose $i$-th entry $x_k$ denotes the amount of traveller exiting link $k$ per unit time (e.g., a day, an hour). 
 
 ## Souce-sink vector
 
-For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n_n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^{n_n}$, whose $i$-th entry $x_i$ ($i\neq n_n$) denotes the amount of travellers starting their trips from node $i$. Further, we let $x_{n_n}=-\sum_{i=1}^{n_n-1} x_i$.
+For simplicity, we assume all travellers in the transporttaion network have the same destination node, given by node $n$. The the traffic demand in the network is described by the source-sink vector $s\in\mathbb{R}^n$, whose $i$-th entry $x_i$ ($i\neq n$) denotes the amount of travellers starting their trips from node $i$. Further, we let $x_n=-\sum_{i=1}^{n-1} x_i$.
 
 # Wardrop equilibrium principle
 
