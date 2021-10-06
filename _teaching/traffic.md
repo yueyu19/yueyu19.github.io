@@ -17,9 +17,11 @@ Do you know how to predict the ground traffic volums in a city during a rush hou
 
 <img src="/images/graph.png" width="250" height="250" img align='right'>
 
+We will introduce some basic concepts in static traffic equilibra model. Thoughout this post we will use an example network given in the figure on the right. 
+
 # Directed networks
 
-A directed network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_l\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, n_l\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. For the network above, we have $n_n=4$ and $n_l=5$. 
+A directed network is defined by a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n_l\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, n_l\\}$. Each link $k$ is defined by a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of link $k$, and node $j$ is the known as the <em>head</em> of the link. For example, for our example network, we have $n_n=4$ and $n_l=5$. 
 
 ## Node-edge incidence matrix
 
@@ -30,7 +32,12 @@ $$E_{ik}=\begin{cases}
     -1, & \text{if node \(i\) is the head of link \(k\),}\\
     0, & \text{otherwise.}
     \end{cases}$$
-For 
+For example, for our example network, we have
+
+$$E=\begin{bmatrix}
+0
+\end{bmatrix}
+$$
 
 ## Path    
 
