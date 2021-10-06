@@ -13,7 +13,7 @@ Do you know how to predict the ground traffic volumes in a city during rush hour
 
 # Prerequisite
 
-[Directed graph](https://en.wikipedia.org/wiki/Directed_graph)
+[Directed graph](https://en.wikipedia.org/wiki/Directed_graph), [supply-demand model](https://en.wikipedia.org/wiki/Supply_and_demand), [queueing model](https://en.wikipedia.org/wiki/Queueing_theory)
 
 <img src="/images/graph.png" width="250" height="250" img align='right'>
 
@@ -79,7 +79,7 @@ There are different optimization-based models for computing traffic flow vectors
 
 The Beckmann model consider the traffic dynamics on each link as a market: the supply side corresponds to the link itself,selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of using a link in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of using link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
 
-Under the above assumptions, you can solve for the equilibrium flow in the network using the following convex optimization problem:
+Under these assumptions, you can solve for the equilibrium flow pattern using the following convex optimization problem:
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}^{x_k} \ell_k(\alpha)d\alpha\\
 \mbox{subject to} & Ex=s,\,\, x\geq 0.
@@ -93,9 +93,17 @@ First introduced in the 1960s, Bekcman model has been used widely in evaluating 
 
 ## Nesterov & de Palma model
 
+As an effort to address the limitations in Beckmann model, Nesterov & de Palma propose an alternative model. Instead of a market, this model consider the traffic on each link as a queue, whose departure rate is upper bounded, and waiting time in the queue is lower bounded. As a result, the flow on link $k$ has an explicit upper bound, and the travel time on link $k$ has an explicit lower bound. We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the nonnegative vectors for link capacity upper bound and travel time lower bound, where $f_k$ and $c_k$ are associated with link $k$.
+
+Under these assumptions, you can solve for the equilibrium flow pattern using the following linear program
+
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
 \mbox{subject to} & Ex=s,\,\,x\leq f,\,\, x\geq 0.
 \end{array}$$
+
+If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above linear program, then $x^\star$ immediately satisfies the flow conservation constraints and link capacity constraint $x\leq f$. Furthermore, using the Karush–Kuhn–Tucker conditions, you can also prove that the Wardrop equilibrium principle holds, where, at equilibra, the cost of using link $k$ equals $c_k+p_k$. Here $p_k$ is the delay caused by congestion, which satisfies the following properties:
+* if $x_k<f_k$, then $p_k=0$,
+* if $x_k=f_k$, then $p_k\geq 0$.
 
 
 
