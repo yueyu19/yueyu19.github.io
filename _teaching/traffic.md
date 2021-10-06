@@ -59,9 +59,11 @@ For simplicity, we assume all travellers in the transporttaion network have the 
 
 # Wardrop equilibrium principle
 
-# Beckmann's model: Each link is a market
+# Optimization-based models for static traffic equilibra
 
-# Nesterov \& de Palma's model: Each link is a queue
+## Beckmann's model
+
+## Nesterov \& de Palma's model
 
 
 
