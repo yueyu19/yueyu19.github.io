@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to numerically predict the traffic equilibra patterns in a transportation network? Do you know the connection between traffic equilibra, supply-demand model and queuing model? Find out more in this lecture.
+Do you know how to numerically predict the traffic patterns in a transportation network? Do you know the connection between traffic equilibra, supply-demand model and queuing model? Find out more in this lecture.
 
 # Prerequisite
 
