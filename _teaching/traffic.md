@@ -13,7 +13,7 @@ Do you know how to predict the ground traffic volums in a city during a rush hou
 
 # Prerequisite
 
-[Directed graph](https://en.wikipedia.org/wiki/Directed_graph) and (optional) [Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
+[Directed graph](https://en.wikipedia.org/wiki/Directed_graph)
 
 <img src="/images/graph.png" width="250" height="250" img align='right'>
 
@@ -81,10 +81,16 @@ $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}
 \mbox{subject to} & Ex=s,\,\, x\geq 0.
 \end{array}$$
 
+[Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
+
+
 ## Nesterov & de Palma's model
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
 \mbox{subject to} & Ex=s,\,\,x\leq f,\,\, x\geq 0.
 \end{array}$$
+
+[Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
+
 
 
