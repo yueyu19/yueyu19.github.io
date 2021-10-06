@@ -1,5 +1,5 @@
 ---
-title: 'Traffic equilibra: Circuits, queuing, and network optimization'
+title: 'Traffic equilibra: Supply-demand, queuing, and network optimization'
 collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic
