@@ -90,7 +90,7 @@ $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
 \mbox{subject to} & Ex=s,\,\,x\leq f,\,\, x\geq 0.
 \end{array}$$
 
-[Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) 
+
 
 
 
