@@ -88,7 +88,7 @@ $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}
 If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above optimization problem, then $x^\star$ immediately satisfies the flow conservation constraints. Furthermore, using the [Karush–Kuhn–Tucker conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions), you can also prove that the Wardrop equilibrium principle holds, where, at equilibra, the cost of using link $k$ equals $\ell_k(x_k)$.
 
 First introduced in the 1960s, Bekcman model has been used widely in evaluating and designing transportation network. However, there are several limitations in this model:
-* There is no capacity constraints on link flows. In practice, the flow on each link always has a easy-to-estimate capacity, usually determined by number of lanes and gren light time. Without these capacity constraints, it is challenging to tune the the parameters in Beckmann model (e.g., those in function $\ell_k$). As a result, Beckmann model can give flow patterns far from a reasonable estimate.
+* There is no capacity constraints on link flows. In practice, the flow on each link always has a easy-to-estimate capacity, usually determined by number of lanes and gren light time. Without these capacity constraints, it is challenging to tune the the parameters in Beckmann model (e.g., those in function $\ell_k$). As a result, Beckmann model can give flow patterns far from a reasonable estimate. There are several efforts that add additional capacity constraints in Beckmann model, see [here](https://www.sciencedirect.com/science/article/pii/0191261595000167) for an example. However, they caused unwanted side effects, as discussed [here](https://pubsonline.informs.org/doi/abs/10.1287/moor.1040.0098). 
 * The assumption of travel time increases with flow is problematic. Intuitively, the travel time on a link should increase with the amount of travelers (known as the link loading), not the amount of travelers exiting the link.  
 
 ## Nesterov & de Palma model
@@ -105,6 +105,9 @@ If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above linear program, 
 * if $x_k<f_k$, then $p_k=0$,
 * if $x_k=f_k$, then $p_k\geq 0$.
 
+# Want more details?
+
+The is a hugh literature on Beckmann model, one of my personal favorite is [the book by Patriksson](https://books.google.com/books?hl=en&lr=&id=PDhkBgAAQBAJ&oi=fnd&pg=PP1&dq=traffic+assignment+problem+patriksson&ots=pkeqLoahMN&sig=rrNMyVOh_PHXZbFKlLot72HcbSU#v=onepage&q=traffic%20assignment%20problem%20patriksson&f=false). There are fewer references on Nesterov & de Palma model, see [the paper by Nesterov and de Palma](https://link.springer.com/article/10.1023/A:1025350419398) and comparison between Beckmann and Nesterove & de Palma model [here](https://www.research-collection.ethz.ch/handle/20.500.11850/3607). 
 
 
 
