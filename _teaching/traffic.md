@@ -1,5 +1,5 @@
 ---
-title: 'Traffic equilibra: Supply-demand, queuing, and convex optimization'
+title: 'Traffic equilibra: Supply-demand model, queuing model, and convex optimization'
 collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic
@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to numerically predict the traffic equilibra patterns in a transportation network? Do you know the connection between traffic equilibra, supply-demand model and queuing theory? Find out more in this lecture.
+Do you know how to numerically predict the traffic equilibra patterns in a transportation network? Do you know the connection between traffic equilibra, supply-demand model and queuing model? Find out more in this lecture.
 
 # Prerequisite
 
