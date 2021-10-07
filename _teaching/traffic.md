@@ -1,5 +1,5 @@
 ---
-title: 'Traffic equilibra: Supply-demand model, queuing model, and convex optimization'
+title: 'Static traffic equilibra: Supply-demand model, queuing model, and convex optimization'
 collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic
