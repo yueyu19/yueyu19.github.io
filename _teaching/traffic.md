@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to numerically predict the traffic patterns in a transportation network? Do you know the connection between traffic equilibra, supply-demand model and queuing model? Find out more in this lecture.
+Do you know how to numerically predict the traffic patterns in a transportation network? Do you know the connection between traffic equilibra, supply-demand models and queuing models? Find out more in this lecture.
 
 # Prerequisite
 
@@ -17,11 +17,11 @@ Do you know how to numerically predict the traffic patterns in a transportation 
 
 <img src="/images/graph.png" width="250" height="250" img align='right'>
 
-We will first introduce some basic concepts in transportation networks, then discuss two optimization-based model for traffic equilibra. Thoughout this lecture we will use the example network given in the figure on the right. 
+We will first introduce some basic concepts in transportation networks, then discuss two optimization-based models for static traffic equilibra. Thoughout this lecture we will use the example network in the figure on the right. 
 
 # Transportation network basics
 
-A transportation network contains a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, m\\}$. Each link $k$ is associated with a pair of ordered distinct nodes $(i, j)$, where node $i$ is known as the <em>tail</em> of the link, and node $j$ is the known as the <em>head</em> of the link. Each node denotes an intersetion of roads, and an link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
+A transportation network contains a set of nodes $\mathcal{N}=\\{1, 2, \ldots, n\\}$ and a set of links $\mathcal{L}=\\{1, 2, \ldots, m\\}$. Each link $k$ denotes a pair of ordered distinct nodes $(i, j)$, where node $i$ is the <em>tail</em> of the link, and node $j$ is the the <em>head</em> of the link. Each node denotes an intersetion of roads, and the presence of a link from node $i$ to node $j$ means any travelers can travel from node $i$ to node $j$.
 
 In our example network, we have $n=4$ and $m=5$. 
 
@@ -46,13 +46,13 @@ $$E=\begin{bmatrix}
 
 ## Paths    
 
-A path is a sequence of distinct links directed in the same direction that connects a collection of distinct nodes. In our example network, there are three paths from node 1 and node 4, each connects one of the following set of the nodes: $\\{1, 2, 4\\}$, $\\{1, 3, 4\\}$, $\\{1, 2, 3, 4\\}$.
+A path is a sequence of distinct links in the same direction that connects a collection of distinct nodes. In our example network, there are three paths from node 1 and node 4, each connects one of the following set of the nodes: $\\{1, 2, 4\\}$, $\\{1, 3, 4\\}$, $\\{1, 2, 3, 4\\}$.
 
 ## Flow vector
 
 The flow vector $x\in\mathbb{R}^m$ is an elementwise nonnegative vector, whose entry $x_k$ denotes the amount of travelers exiting link $k$ per unit time (e.g., a day, an hour). 
 
-In our example network, suppose the link flow is given as follows:
+In our example network, suppose the link flows are given as follows.
 
 | link | flow |
 |----|----|
@@ -62,7 +62,7 @@ In our example network, suppose the link flow is given as follows:
 | $(2, 4)$ | 0.7|
 | $(3, 4)$ | 1.1|
 
-Then the flow vector $x$ is as follows:
+Then the flow vector $x$ is given by:
 
 $$x=\begin{bmatrix}
 0.6\\
@@ -74,9 +74,9 @@ $$x=\begin{bmatrix}
 
 ## Souce-sink vector
 
-For simplicity, we assume that all travellers in the transporttaion network have the same destination, given by node $n$. The source-sink vector $s\in\mathbb{R}^n$ describes the the traffic demand in the network. Its $i$-th ($i\neq n$) entry $s_i$ denotes the amount of travellers traveling from node $i$ to node $n$ per unit time (also know as the traffic demand for origin-destination pair $(i, n)$). Further, we let $s_n=-\sum_{i=1}^{n-1} s_i$.
+For simplicity, we assume that all travellers in the transporttaion network have the same destination, denoted by node $n$. The source-sink vector $s\in\mathbb{R}^n$ describes the the traffic demand in the network. Its $i$-th ($i\neq n$) entry $s_i$ denotes the amount of travellers exiting node $i$ and heading towards node $n$ per unit time (also know as the traffic demand for origin-destination pair $(i, n)$). Further, we let $s_n=-\sum_{i=1}^{n-1} s_i$.
 
-In our example network, suppose that the traffic demand is as follows:
+In our example network, suppose that the traffic demand among different nodes is as follows.
 
 |origin-destination pair| demand|
 |-------|--------|
@@ -84,7 +84,7 @@ In our example network, suppose that the traffic demand is as follows:
 | (2, 4) | 0.8 |
 | (3, 4) | 0 |
 
-Then the source-sink vector is as follows: 
+Then the source-sink vector is given by: 
 
 $$s=\begin{bmatrix}
 1\\
@@ -103,21 +103,21 @@ These equations state that, at each node, the total incoming flow equals the tot
 
 You can check that the node-link incidence matrix in equation (2), the flow vector in equation (3), and the source-sink vector in equation (4) satisfy the flow conservation constraints in equation (5).
 
-## Wardrop equilibria
+## Static traffic equilibra and Wardrop equilibrium principle
 
-[Wardrop equilibra](https://en.wikipedia.org/wiki/John_Glen_Wardrop) is a class of models for traffic patterns, where the link flows and traffic demands remain approximately constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. Wardrop equilibra assume the cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects. Furthermore, only the paths with the lowest sum of link costs are used by the travelers.
+Static traffic equilibra is a class of models for traffic patterns, where the link flows and traffic demands remain approximately constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. Wardrop equilibra assume the cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects.
 
-The last assumption agrees with our intuitions that all travelers want to swicth to an alternative path with lower cost, whenever available. For example, when there are two queues at a grocery stores checkout, the waiting customers tend to switch to the shorter queue, until both queues have approximated the same length.  
+[Wardrop equilibrium principle](https://en.wikipedia.org/wiki/John_Glen_Wardrop), a key characterization of static traffic equilibra, states that only the paths with the lowest sum of link costs are used by the travelers. The principle agrees with our intuition that travelers would swicth to an alternative path with lower cost, whenever available. 
 
 # Optimization-based models for traffic equilibra
 
-There are different optimization-based models for computing traffic flow vectors that satisfy the Wardrop equilibrium principle, each based on different assumptions on the link traffic dynamics. Here we discuss two popular ones. 
+There are different optimization-based models for computing the link flow vector at a static traffic equilibra, each based on different assumptions on the link traffic dynamics. Here we discuss two popular ones. 
 
 ## Beckmann model: supply and demand
 
-Beckmann model considers each link as a market: the supply side corresponds to the link itself, selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of exiting a link increaes in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
+In Beckmann model, the traffic dynamics on each link is modeled as a market: the supply side corresponds to the link itself, selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of exiting a link increaes in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
 
-Under these assumptions, you can solve for the equilibrium flow pattern using the following convex optimization problem:
+Under these assumptions, you can solve for the equilibrium-flow vector using the following convex optimization problem:
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}^{x_k} \ell_k(\alpha)d\alpha\\
 \mbox{subject to} & Ex=s,\,\, x\geq 0.
@@ -131,9 +131,9 @@ First introduced in the 1960s, Bekcmann model has been used widely in evaluating
 
 ## Nesterov & de Palma model: queuing
 
-As an effort to address the limitations in Beckmann model, Nesterov & de Palma proposed an alternative model. Instead of a market, this model considers each link as a queue. In each queue, the departure rate (or service rate) is upper bounded, and the waiting time is lower bounded. As a result, the flow on each link has an explicit upper bound, and the travel cost on link $k$ has an explicit lower bound. We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel cost lower bounds, where $f_k$ and $c_k$ are associated with link $k$.
+As an effort to address the limitations in Beckmann model, Nesterov & de Palma introduced an alternative model. Instead of a market, the traffic dynamics on each link is modeled as a queue. In each queue, the departure rate (or service rate) is upper bounded, and the waiting time is lower bounded. As a result, the flow on each link has an explicit upper bound, and the travel cost on link $k$ has an explicit lower bound. We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel cost lower bounds, where the entry $f_k$ and $c_k$ are associated with link $k$.
 
-Under these assumptions, you can solve for the equilibrium flow pattern using the following linear program:
+Under these assumptions, you can solve for the equilibrium-flow vector using the following linear program:
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
 \mbox{subject to} & Ex=s,\,\, x\geq 0, \,\,x\leq f.
