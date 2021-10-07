@@ -145,7 +145,7 @@ If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above linear program, 
 
 # Want more references?
 
-The is a hugh literature on Beckmann model. One of my personal favorite is [the book by Patriksson](https://books.google.com/books?hl=en&lr=&id=PDhkBgAAQBAJ&oi=fnd&pg=PP1&dq=traffic+assignment+problem+patriksson&ots=pkeqLoahMN&sig=rrNMyVOh_PHXZbFKlLot72HcbSU#v=onepage&q=traffic%20assignment%20problem%20patriksson&f=false). There are fewer references on Nesterov & de Palma model, see [the paper by Nesterov and de Palma](https://link.springer.com/article/10.1023/A:1025350419398) and a comparison between Beckmann and Nesterove & de Palma model in [the paper by Chudak et al](https://www.research-collection.ethz.ch/handle/20.500.11850/3607). 
+The is a hugh literature on Beckmann model. One of my personal favorite is [the book by Patriksson](https://books.google.com/books?hl=en&lr=&id=PDhkBgAAQBAJ&oi=fnd&pg=PP1&dq=traffic+assignment+problem+patriksson&ots=pkeqLoahMN&sig=rrNMyVOh_PHXZbFKlLot72HcbSU#v=onepage&q=traffic%20assignment%20problem%20patriksson&f=false). There are fewer references on Nesterov & de Palma model, see [the paper by Nesterov and de Palma](https://link.springer.com/article/10.1023/A:1025350419398) and a comparison between Beckmann and Nesterove & de Palma model in [the paper by Chudak et al](http://www.strc.ch/2007/2007_chudak.pdf). 
 
 
 
