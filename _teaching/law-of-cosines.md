@@ -140,5 +140,4 @@ In other words, as the iteration number $k$ increases, the nonnegative quadratic
   If you like the convergence proof above and its connection to the law of cosines, there are many other similar proofs in my [PhD dissertation](https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/46999/Yu_washington_0250E_22557.pdf?sequence=1&isAllowed=y). In Appendix B, I rewrote the convergence proofs of most existing first order methods, including projected gradient/subgradient method, proximal gradient method, mirror descent method. All these proofs follow similar steps as the one above.
                                                                                 
  I also use the law of cosines in all of my published work on [distributed optimization](https://arxiv.org/pdf/2009.06980.pdf) and [conic optimization](https://arxiv.org/pdf/2108.10260.pdf), see my [list of publications](/_pages/pub_topic.md) for more references. 
-  
-  Now you are holding the skeleton key to unlock all of these proofs, and many more out there. As Professor Slughorn said to Harry Potter: <em>Use it well!<em>
+ 
