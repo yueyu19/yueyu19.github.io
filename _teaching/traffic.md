@@ -119,13 +119,12 @@ There are different optimization-based models for computing the link flow vector
 
 ## Beckmann model: supply and demand
 
-In Beckmann model, the traffic dynamics on each link is modeled as a compatitive market for a particular good. Further,
+In Beckmann model, the traffic dynamics on each link is modeled as a compatitive market for a type of goods. In this model,
 * the flow on each link is analogous to the number of buyers for the good,
-* the travel cost of each link is analogous to the price of the good.
+* the cost of each link is analogous to the price of the good,
+* the cost of link $k$ is a non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
 
-As a result, the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
-
-Under these assumptions, you can solve for the equilibrium-flow vector using the following convex optimization problem:
+With these assumptions, you can solve for the equilibrium-flow vector using the following convex optimization problem:
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & \sum_{k=1}^m \int_{\alpha=0}^{x_k} \ell_k(\alpha)d\alpha\\
 \mbox{subject to} & Ex=s,\,\, x\geq 0.
@@ -135,23 +134,21 @@ If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above optimization pro
 
 First introduced in the 1960s, Bekcmann model has been used widely in evaluating and designing transportation network. However, there are several limitations in this model:
 * There is no capacity constraints on link flows. In practice, the flow on each link always has an easy-to-estimate capacity, usually determined by number of lanes and green light time. Without these capacity constraints, Beckmann model can give flow patterns far from reasonable estimates. There are several attemptes to add additional capacity constraints in Beckmann model, see [the paper by Larsson and Patriksson](https://www.sciencedirect.com/science/article/pii/0191261595000167) for an example. However, they caused unwanted side effects, as discussed [the paper by Correa et al](https://pubsonline.informs.org/doi/abs/10.1287/moor.1040.0098). 
-* The assumption of link travel cost increases with flow is problematic. Intuitively, the travel cost of a link largely depend on its travel time. And the travel time on a link should increase with the amount of travelers (known as the link loading), not the amount of travelers exiting the link.  
+* The assumption of link cost increases with flow is problematic. Intuitively, the link cost of a link largely depend on its travel time. And the travel time on a link should increase with the amount of travelers (known as the link loading), not the amount of travelers exiting the link.  
 
 ## Nesterov & de Palma model: queuing
 
-Nesterov & de Palma model modeled the traffic dynamics on each link as a queue. In particular,
-* the flow on each link is analogous to the departure rate of a queue, and has an explicit upper bound, 
-* the travel cost on each link is analogous to the waiting time in a queue, and has an explicit lower bound. 
+Nesterov & de Palma model modeled the traffic dynamics on each link as a queue. In this model,
+* the flow on each link $k$ is analogous to the departure rate of a queue, and has an explicit upper bound $f_k$, 
+* the cost of each link $c_k$ is analogous to the waiting time in a queue, and has an explicit lower bound $c_k$. 
 
-We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel cost lower bounds, where the entry $f_k$ and $c_k$ are associated with link $k$.
-
-Under these assumptions, you can solve for the equilibrium-flow vector using the following linear program:
+With these assumptions, you can solve for the equilibrium-flow vector using the following linear program:
 
 $$\begin{array}{ll} \underset{x}{\mbox{minimize}} & c^\top x\\
 \mbox{subject to} & Ex=s,\,\, x\geq 0, \,\,x\leq f.
 \end{array}$$
 
-If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above linear program, then $x^\star$ immediately satisfies the flow conservation constraints and link capacity constraints. Furthermore, using the Karush–Kuhn–Tucker conditions, you can prove that the Wardrop equilibrium principle holds, where the cost of exiting link $k$ at equilibra equals $c_k+p_k$. Here $p_k$ is the travel cost increase caused by congestion, which satisfies the following conditions:
+If $x^\star\in\mathbb{R}^n$ is an optimal solution of the above linear program, then $x^\star$ immediately satisfies the flow conservation constraints and link capacity constraints. Furthermore, using the Karush–Kuhn–Tucker conditions, you can prove that the Wardrop equilibrium principle holds, where the cost of exiting link $k$ at equilibra equals $c_k+p_k$. Here $p_k$ is the increase in link cost caused by congestion, which satisfies the following conditions:
 * if $x_k^\star<f_k$, then $p_k=0$,
 * if $x_k^\star=f_k$, then $p_k\geq 0$.
 
