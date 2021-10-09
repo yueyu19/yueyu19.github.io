@@ -105,11 +105,11 @@ You can check that the node-link incidence matrix in equation (2), the flow vect
 
 ## Static traffic equilibra and Wardrop equilibrium principle
 
-Static traffic equilibra is a class of models for traffic patterns, which make the following assumptions.
+Static traffic equilibra is a class of models for traffic patterns, where
 
-* The link flows and traffic demands remain approximately constant during the time of interest.
-* The cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects.
-* Only the paths with the lowest sum of link costs are used by the travelers
+* the link flows and traffic demands remain approximately constant during the time of interest,
+* the cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects,
+* only the paths with the lowest sum of link costs are used by the travelers.
 
 The last assumption is also known as the [Wardrop equilibrium principle](https://en.wikipedia.org/wiki/John_Glen_Wardrop). The principle agrees with our intuition that travelers would swicth to an alternative path with lower cost, whenever available. 
 
