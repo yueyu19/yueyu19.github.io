@@ -105,9 +105,13 @@ You can check that the node-link incidence matrix in equation (2), the flow vect
 
 ## Static traffic equilibra and Wardrop equilibrium principle
 
-Static traffic equilibra is a class of models for traffic patterns, where the link flows and traffic demands remain approximately constant during the time of interest. Such equilibra typically happens during rush hours where the congestion in the network is at its the maximum. Wardrop equilibra assume the cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects.
+Static traffic equilibra is a class of models for traffic patterns, which make the following assumptions.
 
-[Wardrop equilibrium principle](https://en.wikipedia.org/wiki/John_Glen_Wardrop), a key characterization of static traffic equilibra, states that only the paths with the lowest sum of link costs are used by the travelers. The principle agrees with our intuition that travelers would swicth to an alternative path with lower cost, whenever available. 
+* The link flows and traffic demands remain approximately constant during the time of interest.
+* The cost of exiting each link (e.g., time or fuel cost) is a nondecreasing function of its link flow, due to congestion effects.
+* Only the paths with the lowest sum of link costs are used by the travelers
+
+The last assumption is also known as the [Wardrop equilibrium principle](https://en.wikipedia.org/wiki/John_Glen_Wardrop). The principle agrees with our intuition that travelers would swicth to an alternative path with lower cost, whenever available. 
 
 # Optimization-based models for traffic equilibra
 
@@ -115,7 +119,11 @@ There are different optimization-based models for computing the link flow vector
 
 ## Beckmann model: supply and demand
 
-In Beckmann model, the traffic dynamics on each link is modeled as a market: the supply side corresponds to the link itself, selling the option of exiting the link at a cost, the demand side corresponds to the travelers who wish to exit the link. As the amount of travelers increases, the cost of exiting a link increaes in a way similar to how the price of goods increses with the number of potential buyers. In particular, Beckmann model assumes that the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
+In Beckmann model, the traffic dynamics on each link is modeled as a compatitive market for a particular good. Further,
+* the flow on each link is analogous to the number of buyers for the good,
+* the travel cost of each link is analogous to the price of the good.
+
+As a result, the cost of exiting link $k$ is a continuous and non-decreasing function of link flow $x_k$, given by function $\ell_k:\mathbb{R}\to\mathbb{R}$.
 
 Under these assumptions, you can solve for the equilibrium-flow vector using the following convex optimization problem:
 
@@ -131,7 +139,11 @@ First introduced in the 1960s, Bekcmann model has been used widely in evaluating
 
 ## Nesterov & de Palma model: queuing
 
-As an effort to address the limitations in Beckmann model, Nesterov & de Palma introduced an alternative model. Instead of a market, the traffic dynamics on each link is modeled as a queue. In each queue, the departure rate (or service rate) is upper bounded, and the waiting time is lower bounded. As a result, the flow on each link has an explicit upper bound, and the travel cost on link $k$ has an explicit lower bound. We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel cost lower bounds, where the entry $f_k$ and $c_k$ are associated with link $k$.
+Nesterov & de Palma model modeled the traffic dynamics on each link as a queue. In particular,
+* the flow on each link is analogous to the departure rate of a queue, and has an explicit upper bound, 
+* the travel cost on each link is analogous to the waiting time in a queue, and has an explicit lower bound. 
+
+We let $f\in\mathbb{R}^m$ and $c\in\mathbb{R}^m$ denote the elementwise nonnegative vectors for link flow upper bounds and travel cost lower bounds, where the entry $f_k$ and $c_k$ are associated with link $k$.
 
 Under these assumptions, you can solve for the equilibrium-flow vector using the following linear program:
 
