@@ -102,8 +102,8 @@ where vector $e\in\mathbb{R}^n$ determines the direction of the cylinder, $\eta\
   
   $$ z=\begin{cases}
   x, & \text{if } -\eta\leq \langle e, x\rangle\leq \eta,\\
-  x-(\langle e, x\rangle-\eta)e, & \text{if } \langle e, x\rangle>1,\\
-  x-(\langle e, x\rangle+\eta)e, & \text{if } \langle e, x\rangle<-1.
+  x-(\langle e, x\rangle-\eta)e, & \text{if } \langle e, x\rangle>\eta,\\
+  x-(\langle e, x\rangle+\eta)e, & \text{if } \langle e, x\rangle<-\eta.
   \end{cases}$$
   
   In the second step, given vector $z$ computed in the first step, the projection of $x$ onto set $\mathbb{D}$ is given by
