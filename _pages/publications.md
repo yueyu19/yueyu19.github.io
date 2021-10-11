@@ -13,6 +13,7 @@ author_profile: true
 
 ## 2021
 
+* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2019). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 * **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Under review.
 * Malyuta, Danylo, **Yue Yu**, Purnanand Elango, and Behcet Acikmese. "Advances in trajectory optimization for space vehicle control." arXiv preprint arXiv:2108.02335 (2021). [[arXiv]](https://arxiv.org/pdf/2108.02335.pdf) Accepted to Annual Reviews in Control.
@@ -28,7 +29,6 @@ author_profile: true
 
 ## 2019
 * Li, Sarah HQ, **Yue Yu**, Daniel Calderone, Lillian Ratliff, and Behcet Acikmese. "Tolling for constraint satisfaction in Markov decision process congestion games." In 2019 American Control Conference, pp. 1238-1243. IEEE, 2019. [[arXiv]](https://arxiv.org/pdf/1903.00747.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8814925/?casa_token=ahnd0VNwc0EAAAAA:M4-d3ZQwqh3z8z3QFDQNxbxSTfhfwffMphToUT3jUKuiamR1Gwc19dtObNxjYYCBzGBST865lQ)
-* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2019). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) Under review.
 * **Yu, Yue**, and Behcet Acikmese. "Stochastic Bregman parallel direction method of multipliers for distributed optimization." In 2019 IEEE Conference on Decision and Control, pp. 5550-5555. IEEE, 2019. [[arXiv]](https://arxiv.org/pdf/1902.09695.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/9029539?casa_token=KXuBzjFReGkAAAAA:ul6TSzYr6Y0kBmRuJSzoP51WSFQ1gUXsXAZ-yfkHy2k2786h9XyVYvJFbPxi1xJHESv0Oj9WmA)
 
 
