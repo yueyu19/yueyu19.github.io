@@ -20,7 +20,7 @@ author_profile: true
 
 ## Journal Papers
 
-* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable Demand and Multi-commodity Flow in Markovian Network Equilibrium." arXiv preprint arXiv:1901.08731 (2019). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
+* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable Demand and Multi-commodity Flow in Markovian Network Equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
 * Malyuta, Danylo, **Yue Yu**, Purnanand Elango, and Behcet Acikmese. "Advances in trajectory optimization for space vehicle control." arXiv preprint arXiv:2108.02335 (2021). [[arXiv]](https://arxiv.org/pdf/2108.02335.pdf) Accepted to Annual Reviews in Control
 * **Yu, Yue**, Purnanand Elango, and Behcet Acikmese. "Proportional-Integral Projected Gradient Method for Model Predictive Control." IEEE Control Systems Letters 5, no. 6 (2020): 2174-2179. [[arXiv]](https://arxiv.org/pdf/2009.06980.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/9295329)
 * **Yu, Yue**, and Behcet Acikmese. "RLC circuits-based distributed mirror descent method." IEEE Control Systems Letters 4, no. 3 (2020): 548-553. [[arXiv]](https://arxiv.org/pdf/1911.06273.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8993740)
