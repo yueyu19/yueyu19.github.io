@@ -13,7 +13,7 @@ author_profile: true
 
 ## 2021
 
-* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2019). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
+* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 * **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Under review.
 * Malyuta, Danylo, **Yue Yu**, Purnanand Elango, and Behcet Acikmese. "Advances in trajectory optimization for space vehicle control." arXiv preprint arXiv:2108.02335 (2021). [[arXiv]](https://arxiv.org/pdf/2108.02335.pdf) Accepted to Annual Reviews in Control.
