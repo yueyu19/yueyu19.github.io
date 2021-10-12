@@ -139,7 +139,7 @@ where $e\in\mathbb{R}^n$ gives the direction of the cone and $\gamma\in[0, 1]$ i
  
  We can write $\mathbb{D}$ as the intersection of two sets: an icecream cone and a ball. Particularly, 
  
- $$\begin{aligned}&\mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle, ||x||\leq \rho\}
+ $$\begin{aligned}&\mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle, ||x||\leq \rho\}\\
  &=\underbrace{\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle\}}_{\mathbb{D}_1}\cap \underbrace{\{y\in\mathbb{R}^n|\, ||y||\leq \rho\}}_{\mathbb{D}_2}\end{aligned}$$
                                                                     
 The projection of $x$ onto set $\mathbb{D}$ is as follows
