@@ -137,17 +137,13 @@ The projection of $x$ onto set $\mathbb{D}$ is given by
                                                                   
 where $e\in\mathbb{R}^n$ gives the direction of the cone and $\gamma\in[0, 1]$ is the cosine of the half-angle of the cone, $\rho\in(0, \infty)$ is the radius of the ball.
                                                                     
-The projection of $x$ onto set $\mathbb{D}$ can be computed in two steps, In the first step, we let
-                                    
- $$z=\begin{cases}
-  x, & \text{if } \gamma ||x||\leq \langle e, x\rangle,\\
-  0, & \text{if } \sqrt{1-\gamma^2}||x||\leq -\langle e, x\rangle,\\
-  \gamma e + \frac{\sqrt{1-\gamma^2}}{||x-\langle e, x\rangle e||}(x-\langle e, x\rangle e), & \text{otherwise.}
-  \end{cases} $$
+The projection of $x$ onto set $\mathbb{D}$ can be computed in two steps, In the first step, we cmopute the projection of $x$ onto an icecream cone. In particular, let $z=\pi_{\mathbb{D}_1}[x]$ where
+ 
+ $$\mathbb{D}_1=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle\}.$$
                                                                     
-In the second step, given $z$ computed in the first step, the projection of $x$ onto set $\mathbb{D}$ is given by
+In the second step, given $z$ computed in the first step, the projection of $x$ onto set $\mathbb{D}$ is given by the projection of $z$ onto a ball:
                                                                     
-$$\pi_{\mathbb{D}}[x]=\frac{\rho}{\max\{||z||, \rho\}}z.$$ 
+$$\pi_{\mathbb{D}}[x]=\frac{\rho}{\max\{||z||, \rho\}}z.$$  
                                                                     
 ## Projections onto the Cartesian product of sets
                                                                     
