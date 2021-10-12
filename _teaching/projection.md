@@ -142,13 +142,11 @@ where $e\in\mathbb{R}^n$ gives the direction of the cone and $\gamma\in[0, 1]$ i
  $$\begin{aligned}&\mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle, ||x||\leq \rho\}
  &=\underbrace{\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle\}}_{\mathbb{D}_1}\cap \underbrace{\{y\in\mathbb{R}^n|\, ||y||\leq \rho\}}_{\mathbb{D}_2}\end{aligned}$$
                                                                     
-The projection of $x$ onto set $\mathbb{D}$ can be computed in two steps, In the first step, we cmopute the projection of $x$ onto an icecream cone. In particular, let $z=\pi_{\mathbb{D}_1}[x]$ where
+The projection of $x$ onto set $\mathbb{D}$ is as follows
  
- $$\mathbb{D}_1=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle\}.$$
-                                                                    
-In the second step, given $z$ computed in the first step, the projection of $x$ onto set $\mathbb{D}$ is given by the projection of $z$ onto a ball:
-                                                                    
-$$\pi_{\mathbb{D}}[x]=\frac{\rho}{\max\{||z||, \rho\}}z.$$  
+ $$\pi_{\mathbb{D}}[x]=\pi_{\mathbb{D}_2}[\pi_{\mathbb{D}_1}[x]].$$
+                                                                     
+See above for the projection formulas for $\pi_{\mathbb{D}_1}[\cdot]$ and $\pi_{\mathbb{D}_2}[\cdot]$.
                                                                     
 ## Projections onto the Cartesian product of sets
                                                                     
