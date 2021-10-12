@@ -146,7 +146,7 @@ The projection of $x$ onto set $\mathbb{D}$ is as follows
  
  $$\pi_{\mathbb{D}}[x]=\pi_{\mathbb{D}_2}[\pi_{\mathbb{D}_1}[x]].$$
                                                                      
-See above for the projection formulas for $\pi_{\mathbb{D}_1}[\cdot]$ and $\pi_{\mathbb{D}_2}[\cdot]$.
+See above for the projection formulas for $$\pi_{\mathbb{D}_1}[\cdot]$$ and $$\pi_{\mathbb{D}_2}[\cdot]$$.
                                                                     
 ## Projections onto the Cartesian product of sets
                                                                     
