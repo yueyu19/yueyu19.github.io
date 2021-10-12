@@ -136,6 +136,10 @@ The projection of $x$ onto set $\mathbb{D}$ is given by
   $$ \mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle, ||x||\leq \rho\},$$
                                                                   
 where $e\in\mathbb{R}^n$ gives the direction of the cone and $\gamma\in[0, 1]$ is the cosine of the half-angle of the cone, $\rho\in(0, \infty)$ is the radius of the ball.
+ 
+ We can write $\mathbb{D}$ as the intersection of two sets: an icecream cone and a ball. Particularly, 
+ 
+ $$\mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle, ||x||\leq \rho\}=\underbrace{\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle\}}_{\mathbb{D}_1}\cap \underbrace{\{y\in\mathbb{R}^n|\, ||y||\leq \rho\}}_{\mathbb{D}_2}$$
                                                                     
 The projection of $x$ onto set $\mathbb{D}$ can be computed in two steps, In the first step, we cmopute the projection of $x$ onto an icecream cone. In particular, let $z=\pi_{\mathbb{D}_1}[x]$ where
  
