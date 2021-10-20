@@ -14,5 +14,5 @@ I am a postdoc at the Oden Institute for Computational Engineering and Sciences,
 
 Check out our new demonstration of solving quadrotor path-planning problem using proportional-integeral projected gradient method! See my [previous post](https://yueyu19.github.io/posts/2012/08/pipg/) for details of the algorithms.  
 
-<iframe width="420" height="315" src="https://youtu.be/jieRSmQwHTU" frameborder="0"></iframe>
+<iframe width="420" height="315" src="https://youtu.be/jieRSmQwHTU" frameborder="0"> </iframe>
 
