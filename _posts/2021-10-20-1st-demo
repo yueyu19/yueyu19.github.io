@@ -1,0 +1,10 @@
+---
+title: 'Demonstration of quadrotor path-planning '
+date: 2021-10-04
+permalink: /posts/2012/08/inf/
+tags:
+  - conic optimization
+  - optimal control
+---
+
+{% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
