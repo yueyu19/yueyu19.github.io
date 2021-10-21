@@ -1,5 +1,5 @@
 ---
-title: 'Projections: Why are they useful and how to compute them'
+title: 'Projection: Why is it useful and how to compute it'
 collection: teaching
 type: "Convex optimization"
 permalink: /teaching/projection
@@ -9,7 +9,7 @@ location: "Austin, Texas"
 mathjax: true
 ---
 
-Do you know how to compute projections onto structured convex sets, and how to use them to solve constrained optimization problems? Find out more in this lecture.
+Do you know how to compute a projection onto a closed convex set, and how to use it to solve constrained optimization problems? Find out more in this post.
 
 # Prerequisite
 
@@ -30,9 +30,7 @@ denotes the $\ell_2$-norm.
 
 # Why is it useful?
 
-Projection is a building block for projected gradient method, and many other methods for constrained optimization, as we will show. 
-
-Consider the minimization of a differentiable convex function $f:\mathbb{R}^n\to\mathbb{R}$ over a closed convex set $\mathbb{D}$. One of the most basic and powerful method for such minimization is the <em>projection gradient method</em>, which computes a sequence of estimate of the optimizer, $x^1, x^2, \ldots$, recursively as follows:
+Projection is a building block for projected gradient method, and many other methods for constrained optimization. To see this fact, let us consider the minimization of a differentiable convex function $f:\mathbb{R}^n\to\mathbb{R}$ over a closed convex set $\mathbb{D}$. One of the most basic and powerful method for such minimization is the <em>projection gradient method</em>, which computes a sequence of estimate of the optimizer, $x^1, x^2, \ldots$, recursively as follows:
   
   $$x^{k+1}=\pi_{\mathbb{D}}[x^k-\alpha \nabla f(x^k)],$$
   
