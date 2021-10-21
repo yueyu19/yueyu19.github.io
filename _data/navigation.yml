@@ -1,10 +1,14 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/     
-     
+  - title: "News"
+    url: /year-archive/
+    
   - title: "Tutorials"
     url: /teaching/ 
     
-  - title: "News"
-    url: /year-archive/
+  - title: "Publications"
+    url: /publications/     
+     
+  
+    
+  
