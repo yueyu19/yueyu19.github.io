@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yue Yu's academic website"
+title                    : "Yue Yu's research website"
 title_separator          : "-"
 name                     : &name "Yue Yu"
 description              : &description "Postdoc at the University of Texas at Austin"
