@@ -113,7 +113,7 @@ where vector $e\in\mathbb{R}^n$ determines the direction of the cylinder, $\eta\
 ### Icecream cone
    Consider the following set
   
-  $$ \mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle\},$$
+  $$ \mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||y||\leq \langle y, e\rangle\},$$
                                                                   
 where $e\in\mathbb{R}^n$ gives the direction of the cone and $\gamma\in[0, 1]$ is the cosine of the half-angle of the cone. 
                                                                     
@@ -131,14 +131,14 @@ The projection of $x$ onto set $\mathbb{D}$ is given by
                                                                       
   Consider the following set
   
-  $$ \mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle, ||x||\leq \rho\},$$
+  $$ \mathbb{D}=\{y\in\mathbb{R}^n|\, \gamma||y||\leq \langle y, e\rangle, ||y||\leq \rho\},$$
                                                                   
 where $e\in\mathbb{R}^n$ gives the direction of the cone and $\gamma\in[0, 1]$ is the cosine of the half-angle of the cone, $\rho\in(0, \infty)$ is the radius of the ball.
  
  We can write $\mathbb{D}$ as the intersection of two sets: an icecream cone and a ball. Particularly, 
  
- $$\begin{aligned}\mathbb{D}=&\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle, ||x||\leq \rho\}\\
- =&\underbrace{\{y\in\mathbb{R}^n|\, \gamma||x||\leq \langle x, e\rangle\}}_{\mathbb{D}_1}\cap \underbrace{\{y\in\mathbb{R}^n|\, ||y||\leq \rho\}}_{\mathbb{D}_2}\end{aligned}$$
+ $$\begin{aligned}\mathbb{D}=&\{y\in\mathbb{R}^n|\, \gamma||y||\leq \langle y, e\rangle, ||y||\leq \rho\}\\
+ =&\underbrace{\{y\in\mathbb{R}^n|\, \gamma||y||\leq \langle y, e\rangle\}}_{\mathbb{D}_1}\cap \underbrace{\{y\in\mathbb{R}^n|\, ||y||\leq \rho\}}_{\mathbb{D}_2}\end{aligned}$$
                                                                     
 The projection of $x$ onto set $\mathbb{D}$ is as follows
  
