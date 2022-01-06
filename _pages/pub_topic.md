@@ -13,6 +13,7 @@ author_profile: true
 
 ## Conic Optimization and Optimization based Control
 
+* Elango, Purnanand, Abhinav Kamath, **Yue Yu**, John M. Carson, and Behcet Acikmese. "A Customised First-Order Solver for Real-Time Powered-Descent Guidance." In AIAA SCITECH 2022 Forum, p. 0951. 2022. [[website]](https://arc.aiaa.org/doi/abs/10.2514/6.2022-0951)
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 * **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Under review.
 * Malyuta, Danylo, **Yue Yu**, Purnanand Elango, and Behcet Acikmese. "Advances in trajectory optimization for space vehicle control." arXiv preprint arXiv:2108.02335 (2021). [[arXiv]](https://arxiv.org/pdf/2108.02335.pdf) Accepted to Annual Reviews in Control
