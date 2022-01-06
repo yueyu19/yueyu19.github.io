@@ -31,6 +31,7 @@ author_profile: true
 
 ## Peer-Reviewed Conference Proceedings
 
+* Elango, Purnanand, Abhinav Kamath, **Yue Yu**, John M. Carson, and Behcet Acikmese. "A Customised First-Order Solver for Real-Time Powered-Descent Guidance." In AIAA SCITECH 2022 Forum, p. 0951. 2022. [[website]](https://arc.aiaa.org/doi/abs/10.2514/6.2022-0951)
 * **Yu, Yue**, Shahriar Talebi, Henk J. van Waarde, Ufuk Topcu, Mehran Mesbahi, and Behcet Acikmese. "On controllability and persistency of excitation in data-driven control: Extensions of Willems' fundamental lemma." arXiv preprint arXiv:2102.02953 (2021). [[arXiv]](https://arxiv.org/pdf/2102.02953.pdf) Accepted to 2021 IEEE Conference on Decision and Control.
 * Li, Sarah HQ, **Yue Yu**, Daniel Calderone, Lillian Ratliff, and Behcet Acikmese. "Tolling for constraint satisfaction in Markov decision process congestion games." In 2019 American Control Conference, pp. 1238-1243. IEEE, 2019. [[arXiv]](https://arxiv.org/pdf/1903.00747.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8814925/?casa_token=ahnd0VNwc0EAAAAA:M4-d3ZQwqh3z8z3QFDQNxbxSTfhfwffMphToUT3jUKuiamR1Gwc19dtObNxjYYCBzGBST865lQ)
 * **Yu, Yue**, and Behcet Acikmese. "Stochastic Bregman parallel direction method of multipliers for distributed optimization." In 2019 IEEE Conference on Decision and Control, pp. 5550-5555. IEEE, 2019. [[arXiv]](https://arxiv.org/pdf/1902.09695.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/9029539?casa_token=KXuBzjFReGkAAAAA:ul6TSzYr6Y0kBmRuJSzoP51WSFQ1gUXsXAZ-yfkHy2k2786h9XyVYvJFbPxi1xJHESv0Oj9WmA)
