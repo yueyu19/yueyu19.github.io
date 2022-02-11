@@ -114,21 +114,21 @@ Since the inner product of a zero vector with any vector is always zero, we conc
   
  $$\langle x^{k+1}-x^k, x^\star-x^{k+1}\rangle=\frac{1}{2}||x^k-x^\star||^2-\frac{1}{2}||x^{k+1}-x^\star||^2-\frac{1}{2}||x^{k+1}-x^k||^2,$$
   
- $$\alpha \langle \nabla f(x^\star)-\nabla f(x^k), x^{k+1}-x^\star\rangle=\alpha (B_f(x^{k+1}, x^k)-B_f(x^{k+1}, x^\star)-B_f(x^\star, x^k)).$$
+ $$ \langle \nabla f(x^\star)-\nabla f(x^k), x^{k+1}-x^\star\rangle=B_f(x^{k+1}, x^k)-B_f(x^{k+1}, x^\star)-B_f(x^\star, x^k).$$
   
 ### Some simple bounds using the assumptions
   
 Next, in order to cancel out the cumbersome Bregman divergence terms, we bound them using quadratic functions. By using equation (5), we can immediately obtain the following inequalities:
   
-  $$\alpha B_f(x^{k+1}, x^k)\leq \frac{\alpha \lambda}{2}||x^{k+1}-x^k||^2,$$
+  $$ B_f(x^{k+1}, x^k)\leq \frac{\lambda}{2}||x^{k+1}-x^k||^2,$$
   
-  $$\frac{\alpha \mu}{2}||x^k-x^\star||^2\leq \alpha B_f(x^\star, x^k),$$
+  $$\frac{\mu}{2}||x^k-x^\star||^2\leq B_f(x^\star, x^k),$$
   
-  $$\frac{\alpha \mu}{2}||x^{k+1}-x^\star||^2\leq \alpha B_f(x^{k+1}, x^\star).$$
+  $$\frac{\mu}{2}||x^{k+1}-x^\star||^2\leq B_f(x^{k+1}, x^\star).$$
 
 ### Summing up inequalities and canceling terms  
 
-Finally, by summing up equation (8-13), and letting $\alpha\leq\frac{1}{\lambda}$, we obtain the following result:
+Finally, by summing up equation (8-13) (with proper weighting coefficients), and letting $\alpha\leq\frac{1}{\lambda}$, we obtain the following result:
   
   $$\frac{1+\frac{\mu}{\lambda}}{2}||x^{k+1}-x^\star||^2\leq \frac{1-\frac{\mu}{\lambda}}{2}||x^k-x^\star||^2.$$
 
