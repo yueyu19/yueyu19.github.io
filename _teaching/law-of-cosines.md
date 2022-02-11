@@ -50,9 +50,9 @@ A key ingrident in the law of cosines is the quadratic function. So a natural qu
 
 The answer is **yes**! All we need to do is to replace the quadratic function with the sso called <em>Bregman divergence</em>.  
 
-To this end, we consider a general differentiable function $f:\mathbb{R}^n\to\mathbb{R}$. Given two points $x^1, x^2\in\mathbb{R}^n$, the Bregman divergence between $x^1$ and $x^2$ associated with function $f$ is given as follows:
+To this end, we consider a general differentiable function $f:\mathbb{R}^n\to\mathbb{R}$. Given two points $x, y\in\mathbb{R}^n$, the Bregman divergence from $x$ to $y$ associated with function $f$ is given as follows:
 
-$$ B_f(x^1, x^2)=f(x^1)-f(x^2)-\langle \nabla f(x^2), x^1-x^2\rangle.$$  
+$$ B_f(x, y)=f(x)-f(y)-\langle \nabla f(y), x-y\rangle.$$  
   
 Using the above definition, you can verify that the following equation holds:
   
@@ -81,9 +81,9 @@ We consider the minimization of a differentiable convex function $f:\mathbb{R}^n
   
 We also make the following assumptions on function $f$: there exists $0< \mu\leq \lambda$ such that
   
-  $$\frac{\mu}{2}||x-x'||^2\leq B_f(x, x')\leq \frac{\lambda}{2}||x-x'||^2$$
+  $$\frac{\mu}{2}||x-y||^2\leq B_f(x, y)\leq \frac{\lambda}{2}||x-y||^2$$
   
-for all $x, x'\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function.
+for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function.
 
 
 
