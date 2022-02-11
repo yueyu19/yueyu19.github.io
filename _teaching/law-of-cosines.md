@@ -20,7 +20,7 @@ The definition of [convex sets](https://en.wikipedia.org/wiki/Convex_set) and [c
 
 You probably have seen the [low of cosines](https://en.wikipedia.org/wiki/Law_of_cosines) in high school. Given a triangle, the law of cosines gives an equation between the cosine of one of the three angles and the length of the three sides, as shown by the image on the right.
 
-Although usually considered for two or three dimensional triangles, the law of cosines can be generalized higher dimensions as well. To see this generalization,  we let $$||x||$$ denote the $\ell_2$-norm of vector $x$. Let $x^1, x^2, x^3\in\mathbb{R}^n$ be three points in a $n$-dimentional vector space. By completing the squares one can verify the following general form of law of cosines:
+Although usually considered for two or three dimensional triangles, the law of cosines can be generalized higher dimensions as well. To see this generalization,  we let $||x||$ denote the $\ell_2$-norm of vector $x$. Let $x^1, x^2, x^3\in\mathbb{R}^n$ be three points in a $n$-dimentional vector space. By completing the squares one can verify the following general form of law of cosines:
 
 \begin{equation}
 \langle x^1-x^2, x^3-x^1\rangle=\frac{1}{2}||x^3-x^2||^2-\frac{1}{2}||x^3-x^1||^2-\frac{1}{2}||x^1-x^2||^2.
