@@ -20,9 +20,7 @@ The definition of [convex sets](https://en.wikipedia.org/wiki/Convex_set) and [c
 
 You probably have seen the [low of cosines](https://en.wikipedia.org/wiki/Law_of_cosines) in high school. Given a triangle, the law of cosines gives an equation between the cosine of one of the three angles and the length of the three sides, as shown by the image on the right.
 
-Although usually considered for two or three dimensional triangles, the law of cosines can be generalized higher dimensions as well. To see this generalization,  we let
-$$||x||$$
-denote the $\ell_2$-norm of vector $x$. Let $x^1, x^2, x^3\in\mathbb{R}^n$ be three points in a $n$-dimentional vector space. By completing the squares one can verify the following general form of law of cosines:
+Although usually considered for two or three dimensional triangles, the law of cosines can be generalized higher dimensions as well. To see this generalization,  we let $$||x||$$ denote the $\ell_2$-norm of vector $x$. Let $x^1, x^2, x^3\in\mathbb{R}^n$ be three points in a $n$-dimentional vector space. By completing the squares one can verify the following general form of law of cosines:
 
 \begin{equation}
 \langle x^1-x^2, x^3-x^1\rangle=\frac{1}{2}||x^3-x^2||^2-\frac{1}{2}||x^3-x^1||^2-\frac{1}{2}||x^1-x^2||^2.
@@ -51,6 +49,8 @@ The answer is **yes**! All we need to do is to replace the quadratic function wi
 To this end, we consider a general differentiable function $f:\mathbb{R}^n\to\mathbb{R}$. Given two points $x^1, x^2\in\mathbb{R}^n$, the Bregman divergence between $x^1$ and $x^2$ associated with function $f$ is given as follows:
 
 $$ B_f(x^1, x^2)=f(x^1)-f(x^2)-\langle \nabla f(x^2), x^1-x^2\rangle.$$  
+
+<img src="/images/bregman.png" width="300" height="300" img align='right'>
   
 Using the above definition, you can verify that the following equation holds:
   
@@ -80,6 +80,8 @@ We also make the following assumptions on function $f$: there exists $0< \mu\leq
   $$\frac{\mu}{2}||x-x'||^2\leq B_f(x, x')\leq \frac{\lambda}{2}||x-x'||^2$$
   
 for all $x, x'\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function.
+
+<img src="/images/quadbd.png" width="300" height="300" img align='right'>
 
 ## The gradient descent method
   
