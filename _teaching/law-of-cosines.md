@@ -95,11 +95,11 @@ To solve the above minimization problem, we consider the gradient descent method
   
 where $k$ is the iteration counter, and $\alpha$ is a positive positive step size.
 
-<img src="/images/graddes.png" width="300" height="300" img align='center'>  
+<img src="/images/graddes.png" width="300" height="300" img align='middle'>  
  
 You may think that, by following the negative gradient direction, the gradient descent method will ensure that the value of $f(x^k)$ decreases as $k$ increases. However, if the step size $\alpha$ is too large, the opposite will happen, as shown below.
 
-<img src="/images/graddiv.png" width="300" height="300" img align='center'>  
+<img src="/images/graddiv.png" width="300" height="300" img align='middle'>  
 
 On the other hand, if you choose $\alpha$ is too small, then $x^k$ barely changes as $k$ increases. So here is the question: what is the largest value of $\alpha$ in the gradient descent method that makes $x^k$ converges to $x^\star$ as $k$ increases?
 
