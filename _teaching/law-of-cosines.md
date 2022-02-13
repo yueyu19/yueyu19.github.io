@@ -12,7 +12,7 @@ Do you remeber the law of cosines from your high-school math classes? Did you kn
 
 
 <figure>
-  <img src="/images/cosine.png" alt="Trulli" style="width:100%">
+  <img src="/images/cosine.png" alt="Trulli" style="width:50%">
   <figcaption>Fig.1 - The law of cosines</figcaption>
 </figure>
 
