@@ -95,7 +95,7 @@ To solve the above minimization problem, we consider the gradient descent method
   
 where $k$ is the iteration counter, and $\alpha$ is a positive positive step size.
 
-<img src="/images/graddes.png" width="300" height="300" img align='middle'>  
+<img src="/images/graddes.png" width="300" height="300" img align='right'>  
  
 You may think that, by following the negative gradient direction, the gradient descent method will ensure that the value of $f(x^k)$ decreases as $k$ increases. However, if the step size $\alpha$ is too large, the opposite will happen, as shown below.
 
