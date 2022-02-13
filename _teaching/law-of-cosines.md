@@ -85,7 +85,7 @@ We also make the following assumptions on function $f$: there exists $0< \mu\leq
   
 for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$; see the figure below for an illustration. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function. 
 
-<img src="/images/quadbd.png" width="300" height="300" img align='middle'>  
+<img src="/images/quadbd.png" width="300" height="300" img align='right'>  
 
 
 ## The gradient descent method
