@@ -15,8 +15,6 @@ Do you remeber the law of cosines from your high-school math classes? Did you kn
   <figcaption>Fig.1 - The law of cosines</figcaption>
 </figure>
 
-
-
 # Prerequisite
 
 The definition of [convex sets](https://en.wikipedia.org/wiki/Convex_set) and [convex functions](https://en.wikipedia.org/wiki/Convex_function).
