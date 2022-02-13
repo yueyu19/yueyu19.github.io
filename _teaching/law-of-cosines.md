@@ -90,8 +90,6 @@ for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower
 
 
 ## The gradient descent method
-
-<img src="/images/graddes.png" width="300" height="300" img align='right'> 
   
 To solve the above minimization problem, we consider the gradient descent method, where a sequence $\\{x^1, x^2, x^3, \ldots\\}$ is computed recursively as follows:
   
