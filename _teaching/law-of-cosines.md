@@ -78,14 +78,15 @@ We consider the minimization of a differentiable convex function $f:\mathbb{R}^n
   
   $$\nabla f(x^\star)=0$$
   
+<img src="/images/quadbd.png" width="300" height="300" img align='right'>    
   
 We also make the following assumptions on function $f$: there exists $0< \mu\leq \lambda$ such that
   
   $$\frac{\mu}{2}||x-y||^2\leq B_f(x, y)\leq \frac{\lambda}{2}||x-y||^2$$
   
-for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$; see the figure below for an illustration. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function. 
+for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$; see the figure on the right for an illustration. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function. 
 
-<img src="/images/quadbd.png" width="300" height="300" img align='right'>  
+
 
 
 ## The gradient descent method
