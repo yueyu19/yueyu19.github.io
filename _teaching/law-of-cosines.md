@@ -78,16 +78,19 @@ We consider the minimization of a differentiable convex function $f:\mathbb{R}^n
   
   $$\nabla f(x^\star)=0$$
   
-<img src="/images/quadbd.png" width="300" height="300" img align='right'>  
   
 We also make the following assumptions on function $f$: there exists $0< \mu\leq \lambda$ such that
   
   $$\frac{\mu}{2}||x-y||^2\leq B_f(x, y)\leq \frac{\lambda}{2}||x-y||^2$$
   
-for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function.
+for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$; see the figure below for an illustration. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function. 
+
+<img src="/images/quadbd.png" width="300" height="300" img align='middle'>  
 
 
 ## The gradient descent method
+
+<img src="/images/graddes.png" width="300" height="300" img align='right'> 
   
 To solve the above minimization problem, we consider the gradient descent method, where a sequence $\\{x^1, x^2, x^3, \ldots\\}$ is computed recursively as follows:
   
@@ -95,7 +98,7 @@ To solve the above minimization problem, we consider the gradient descent method
   
 where $k$ is the iteration counter, and $\alpha$ is a positive positive step size.
 
-<img src="/images/graddes.png" width="300" height="300" img align='right'>  
+ 
  
 You may think that, by following the negative gradient direction, the gradient descent method will ensure that the value of $f(x^k)$ decreases as $k$ increases. However, if the step size $\alpha$ is too large, the opposite will happen, as shown below.
 
