@@ -10,7 +10,12 @@ mathjax: true
 ---
 Do you remeber the law of cosines from your high-school math classes? Did you know that it is an incredibly useful technique in the convergence proofs of optimization methods? Find out more in this post.
 
-<img src="/images/cosine.png" width="300" height="300" img align='right'>
+<figure>
+  <img src="/images/cosine.png" width="300" height="300" img align='right'>
+  <figcaption>Fig.1 - The law of cosines</figcaption>
+</figure>
+
+
 
 # Prerequisite
 
