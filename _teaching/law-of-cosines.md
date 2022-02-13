@@ -85,7 +85,6 @@ We also make the following assumptions on function $f$: there exists $0< \mu\leq
   
 for all $x, y\in\mathbb{R}^n$. Intuitively, the above assumption upper and lower bounds the curvature of function $f$. Under this assumption, function $f$ is also known as a $\mu$-strong convexity and $\lambda$-smooth function.
 
-<img src="/images/graddes.png" width="300" height="300" img align='right'>  
 
 ## The gradient descent method
   
@@ -94,6 +93,8 @@ To solve the above minimization problem, we consider the gradient descent method
   $$x^{k+1}=x^k-\alpha \nabla f(x^k),$$
   
 where $k$ is the iteration counter, and $\alpha$ is a positive positive step size.
+
+<img src="/images/graddes.png" width="300" height="300" img align='right'>  
  
 You may think that, by following the negative gradient direction, the gradient descent method will ensure that the value of $f(x^k)$ decreases as $k$ increases. However, if the step size $\alpha$ is too large, the opposite will happen. On the other hand, if you choose $\alpha$ is too small, then $x^k$ barely changes as $k$ increases. So here is the question: what is the largest value of $\alpha$ in the gradient descent method that makes $x^k$ converges to $x^\star$ as $k$ increases?
 
