@@ -26,7 +26,7 @@ $$||x||$$
 denote the $\ell_2$-norm of vector $x$. Let $x^1, x^2, x^3\in\mathbb{R}^n$ be three points in a $n$-dimentional vector space. By completing the squares one can verify the following general form of law of cosines:
 
 \begin{equation}
-\langle x^1-x^2, x^3-x^1\rangle=\frac{1}{2}||x^3-x^2||^2-\frac{1}{2}||x^3-x^1||^2-\frac{1}{2}||x^1-x^2||^2.
+\langle x-y, z-x\rangle=\frac{1}{2}||z-y||^2-\frac{1}{2}||z-x||^2-\frac{1}{2}||x-y||^2.
 \end{equation}
 
 Notice that the above equation is indeed equivalent to the law of cosines. In particular, $x^1, x^2$ and $x^3$ are the coordinates of the three vertices of the triangle. The length of each side of the triangle is measured by the $\ell_2$-norm. In addition, the cosine (together with a negative sign) is now hidden in the inner product term. 
@@ -57,7 +57,7 @@ $$ B_f(x, y)=f(x)-f(y)-\langle \nabla f(y), x-y\rangle.$$
   
 Using the above definition, you can verify that the following equation holds:
   
-$$ \langle \nabla f(x^1)-\nabla f(x^2), x^3-x^1\rangle=B_f(x^3, x^2)-B_f(x^3, x^1)- B-f(x^1, x^2). $$  
+$$ \langle \nabla f(x)-\nabla f(y), z-x\rangle=B_f(z, y)-B_f(z, x)- B-f(x, y). $$  
   
 The above equation is also known at the **three-point property of Bregman divergence**. You can check that equation (1) is in fact the special case of equation (2) where
 
