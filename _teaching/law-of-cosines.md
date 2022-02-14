@@ -49,7 +49,7 @@ Do you see it now? By providing a handy trick in dealing with the inner product 
 
 A key ingrident in the law of cosines is the quadratic function. So a natural question is: what makes quadratic functions so special? If we use some other functions instead, can we still get results similar to the law of cosines?
 
-The answer is **yes**! All we need to do is to replace the quadratic function with the sso called <em>Bregman divergence</em>.  
+The answer is **yes**! All we need to do is to replace the quadratic function with the so called <em>Bregman divergence</em>.  
 
 To this end, we consider a general differentiable function $f:\mathbb{R}^n\to\mathbb{R}$. Given two points $x, y\in\mathbb{R}^n$, the Bregman divergence from $x$ to $y$ associated with function $f$ is given as follows:
 
@@ -99,15 +99,15 @@ where $k$ is the iteration counter, and $\alpha$ is a positive positive step siz
 
  
  
-You may think that, by following the negative gradient direction, the gradient descent method will ensure that the value of $f(x^k)$ decreases as $k$ increases. However, if the step size $\alpha$ is too large, the opposite will happen, as shown on the right.
+You may think that, by following the negative gradient direction, the gradient descent method will ensure that $x^k$ converges to $x^\star$ as $k$ increases. In addition, the larger the step size $\alpha$, the faster the convergence. However, if the step size $\alpha$ is too large, $x^k$ may never converge to anything, as illustrated by the image on the right.
 
 <img src="/images/graddiv.png" width="300" height="300" img align='right'>  
 
-On the other hand, if you choose $\alpha$ is too small, then $x^k$ barely changes as $k$ increases. So here is the question: what is the largest value of $\alpha$ in the gradient descent method that makes $x^k$ converges to $x^\star$ as $k$ increases?
+Here is the key question: what is the largest value of $\alpha$ in the gradient descent method that makes $x^k$ converges to $x^\star$ as $k$ increases?
 
 To answer this question, we need to prove the convergence of the gradient descent method; and in this proof, you will see how can the law of cosines be useful.
 
-## The convergence proof  
+## Convergence proof of the gradient descent method 
   
 Any ideas of how to show $x^k$ converges to $x^\star$ as $k$ increases? Let us prove it step by step.  
   
