@@ -136,7 +136,7 @@ Next, in order to cancel out the cumbersome Bregman divergence terms, we bound t
 
 ### Summing up inequalities and canceling terms  
 
-Finally, by summing up equation (8-13) (with proper weighting coefficients), and letting $\alpha\leq\frac{1}{\lambda}$, we obtain the following result:
+Finally, by summing up equation (9-14) (with proper weighting coefficients), and letting $\alpha\leq\frac{1}{\lambda}$, we obtain the following result:
   
   $$\frac{1+\frac{\mu}{\lambda}}{2}||x^{k+1}-x^\star||^2\leq \frac{1-\frac{\mu}{\lambda}}{2}||x^k-x^\star||^2.$$
 
