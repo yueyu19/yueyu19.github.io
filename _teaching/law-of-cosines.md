@@ -140,7 +140,7 @@ Finally, by summing up equation (9-14) (with proper weighting coefficients), and
   
   $$\frac{1+\frac{\mu}{\lambda}}{2}||x^{k+1}-x^\star||^2\leq \frac{1-\frac{\mu}{\lambda}}{2}||x^k-x^\star||^2.$$
 
-### Proving Exponential convergence by induction  
+### Proving exponential convergence by induction  
   
 By using the above relation recursively, we can show the following
   
