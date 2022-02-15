@@ -108,7 +108,7 @@ To answer this question, we need to prove the convergence of the gradient descen
 Any ideas of how to show $x^k$ converges to $x^\star$ as $k$ increases? Let us prove it step by step.  
   
 ### What we already know
-Given equation (4) and (6), we immediately know the following:
+Given equation (5) and (7), we immediately know the following:
   
   $$x^{k+1}-x^k+\alpha (\nabla f(x^k)-\nabla f(x^\star))= 0. $$
   
@@ -126,7 +126,7 @@ Since the inner product of a zero vector with any vector is always zero, we conc
   
 ### Some simple bounds using the assumptions
   
-Next, in order to cancel out the cumbersome Bregman divergence terms, we bound them using quadratic functions. By using equation (5), we can immediately obtain the following inequalities:
+Next, in order to cancel out the cumbersome Bregman divergence terms, we bound them using quadratic functions. By using equation (6), we can immediately obtain the following inequalities:
   
   $$ B_f(x^{k+1}, x^k)\leq \frac{\lambda}{2}||x^{k+1}-x^k||^2,$$
   
