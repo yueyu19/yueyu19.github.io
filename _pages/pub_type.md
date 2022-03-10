@@ -14,13 +14,13 @@ author_profile: true
 ## Preprints
 
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
-* **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Under review.
 * Li, Sarah HQ, **Yue Yu**, Dan Calderone, Lillian J. Ratliff, and Behcet Acikmese. "Online constraint satisfaction for MDP congestion games." arXiv preprint arXiv:1907.08912 (2021). [[arXiv]](https://arxiv.org/pdf/1907.08912.pdf) Under review.
 
 
 ## Journal Papers
 
-* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
+* **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Accepted to Automatica.
+* **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) Accepted to Automatica.
 * Malyuta, Danylo, **Yue Yu**, Purnanand Elango, and Behcet Acikmese. "Advances in trajectory optimization for space vehicle control." Annual Reviews in Control 52 (2021): 282-315. [[arXiv]](https://arxiv.org/pdf/2108.02335.pdf) [[website]](https://www.sciencedirect.com/science/article/pii/S1367578821000377).
 * **Yu, Yue**, Purnanand Elango, and Behcet Acikmese. "Proportional-integral projected gradient method for model predictive control." IEEE Control Systems Letters 5, no. 6 (2020): 2174-2179. [[arXiv]](https://arxiv.org/pdf/2009.06980.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/9295329)
 * **Yu, Yue**, and Behcet Acikmese. "RLC circuits-based distributed mirror descent method." IEEE Control Systems Letters 4, no. 3 (2020): 548-553. [[arXiv]](https://arxiv.org/pdf/1911.06273.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8993740)
