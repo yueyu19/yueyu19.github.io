@@ -12,13 +12,13 @@ author_profile: true
 [[Sort by year]](publications.md) [[Sort by type]](pub_type.md) [[Sort by topic]](pub_topic.md)
 
 ## 2022
+* **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Accepted to Automatica.
 * Elango, Purnanand, Abhinav Kamath, **Yue Yu**, John M. Carson, and Behcet Acikmese. "A Customised First-Order Solver for Real-Time Powered-Descent Guidance." In AIAA SCITECH 2022 Forum, p. 0951. 2022. [[website]](https://arc.aiaa.org/doi/abs/10.2514/6.2022-0951)
 
 ## 2021
 
 * **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
-* **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Under review.
 * Malyuta, Danylo, **Yue Yu**, Purnanand Elango, and Behcet Acikmese. "Advances in trajectory optimization for space vehicle control." Annual Reviews in Control 52 (2021): 282-315. [[arXiv]](https://arxiv.org/pdf/2108.02335.pdf) [[website]](https://www.sciencedirect.com/science/article/pii/S1367578821000377).
 * **Yu, Yue**, Shahriar Talebi, Henk J. van Waarde, Ufuk Topcu, Mehran Mesbahi, and Behcet Acikmese. "On controllability and persistency of excitation in data-driven control: Extensions of Willems' fundamental lemma." arXiv preprint arXiv:2102.02953 (2021). [[arXiv]](https://arxiv.org/pdf/2102.02953.pdf) Accepted to 2021 IEEE Conference on Decision and Control.
 * Li, Sarah HQ, **Yue Yu**, Dan Calderone, Lillian J. Ratliff, and Behcet Acikmese. "Online constraint satisfaction for MDP congestion games." arXiv preprint arXiv:1907.08912 (2021). [[arXiv]](https://arxiv.org/pdf/1907.08912.pdf) Under review.
