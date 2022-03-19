@@ -13,7 +13,7 @@ author_profile: true
 
 ## Conic Optimization and Optimization based Control
 
-* **Yu, Yue**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf)
+* **Yu, Yue**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf) Under review.
 * Elango, Purnanand, Abhinav Kamath, **Yue Yu**, John M. Carson, and Behcet Acikmese. "A Customised First-Order Solver for Real-Time Powered-Descent Guidance." In AIAA SCITECH 2022 Forum, p. 0951. 2022. [[website]](https://arc.aiaa.org/doi/abs/10.2514/6.2022-0951)
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 * **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) Accepted to Automatica.
@@ -33,7 +33,7 @@ author_profile: true
 * **Yu, Yue**, Behcet Acikmese, and Mehran Mesbahi. "Bregman parallel direction method of multipliers for distributed optimization via mirror averaging." IEEE Control Systems Letters 2, no. 2 (2018): 302-306. [[arXiv]](https://arxiv.org/pdf/1802.06835.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8354719/?casa_token=h5MFx4g3e7YAAAAA:QiPM9epkzIYAekhPhDQQ6d7EVxD89c3Eyh2swNoz7RWYDW9SSrErqV9vnVXU0zcK9YVqN7Tz6g)
 
 ## Markove Decision Processes and Network Games
-* **Yu, Yue**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) 
+* **Yu, Yue**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Under review.
 * **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
 * Li, Sarah HQ, **Yue Yu**, Dan Calderone, Lillian J. Ratliff, and Behcet Acikmese. "Online constraint satisfaction for MDP congestion games." arXiv preprint arXiv:1907.08912 (2021). [[arXiv]](https://arxiv.org/pdf/1907.08912.pdf) Under review.
 * Li, Sarah HQ, **Yue Yu**, Daniel Calderone, Lillian Ratliff, and Behcet Acikmese. "Tolling for constraint satisfaction in Markov decision process congestion games." In 2019 American Control Conference, pp. 1238-1243. IEEE, 2019. [[arXiv]](https://arxiv.org/pdf/1903.00747.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8814925/?casa_token=ahnd0VNwc0EAAAAA:M4-d3ZQwqh3z8z3QFDQNxbxSTfhfwffMphToUT3jUKuiamR1Gwc19dtObNxjYYCBzGBST865lQ)
