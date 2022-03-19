@@ -13,6 +13,8 @@ author_profile: true
 
 ## Preprints
 
+* **Yu, Yue**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) 
+* **Yu, Yue**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf)
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 * Li, Sarah HQ, **Yue Yu**, Dan Calderone, Lillian J. Ratliff, and Behcet Acikmese. "Online constraint satisfaction for MDP congestion games." arXiv preprint arXiv:1907.08912 (2021). [[arXiv]](https://arxiv.org/pdf/1907.08912.pdf) Under review.
 
