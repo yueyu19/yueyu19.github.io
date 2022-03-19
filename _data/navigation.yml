@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "News"
-    url: /year-archive/
+ # - title: "News"
+ #   url: /year-archive/
     
   - title: "Tutorials"
     url: /teaching/ 
