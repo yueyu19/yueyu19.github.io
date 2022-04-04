@@ -106,7 +106,7 @@ where vector $e\in\mathbb{R}^n$ determines the direction of the cylinder, $\eta\
   
   In the second step, given vector $z$ computed in the first step, the projection of $x$ onto set $\mathbb{D}$ is given by
                                                                     
-  $$\pi_{\mathbb{D}}[x]=\langle e, x\rangle e+\frac{\rho}{\max\{||x-\langle e, x\rangle e||, \rho\}}(x-\langle e, x\rangle e). $$
+  $$\pi_{\mathbb{D}}[a]=\langle e, a\rangle e+\frac{\rho}{\max\{||z-\langle e, z\rangle e||, \rho\}}(z-\langle e, z\rangle e). $$
                                                                       
  <img src="/images/cone.png" width="150" height="150" img align='left'>
                                                                       
