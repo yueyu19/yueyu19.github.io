@@ -14,12 +14,11 @@ author_profile: true
 ## Preprints
 
 * **Yu, Yue**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Under review.
-* **Yu, Yue**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf) Under review.
-* **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 
 
 ## Journal Papers
 
+* **Yu, Yue**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf) Accepted to IEEE Control Systems Letters.
 * Li, Sarah HQ, **Yue Yu**, Dan Calderone, Lillian J. Ratliff, and Behcet Acikmese. "Adaptive Constraint Satisfaction for Markov Decision Process Congestion Games: Application to Transportation Networks." arXiv preprint arXiv:1907.08912 (2021). [[arXiv]](https://arxiv.org/pdf/1907.08912.pdf) Accepted to Automatica.
 * **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) [[website]](https://www.sciencedirect.com/science/article/abs/pii/S0005109822002096?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&utm_acid=265648662&utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_in=DM256431&utm_medium=email&utm_source=AC_) Accepted to Automatica.
 * **Yu, Yue**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) Accepted to Automatica.
