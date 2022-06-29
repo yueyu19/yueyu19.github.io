@@ -13,7 +13,7 @@ author_profile: true
 
 ## Conic Optimization and Optimization based Control
 
-* **Yu, Yue**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf) Under review.
+* **Yu, Yue**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf) Accepted to IEEE Control Systems Letters.
 * Elango, Purnanand, Abhinav Kamath, **Yue Yu**, John M. Carson, and Behcet Acikmese. "A Customised First-Order Solver for Real-Time Powered-Descent Guidance." In AIAA SCITECH 2022 Forum, p. 0951. 2022. [[website]](https://arc.aiaa.org/doi/abs/10.2514/6.2022-0951)
 * **Yu, Yue**, and Ufuk Topcu. "Proportional-integral projected gradient method for infeasibility detection in conic optimization." arXiv preprint arXiv:2109.02756 (2021). [[arXiv]](https://arxiv.org/pdf/2109.02756.pdf) Under review.
 * **Yu, Yue**, Purnanand Elango, Ufuk Topcu, and Behcet Acikmese. "Proportional-integral projected gradient method for conic optimization." arXiv preprint arXiv:2108.10260 (2021). [[arXiv]](https://arxiv.org/pdf/2108.10260.pdf) [[website]](https://www.sciencedirect.com/science/article/abs/pii/S0005109822002096?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&utm_acid=265648662&utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_in=DM256431&utm_medium=email&utm_source=AC_) Accepted to Automatica.
