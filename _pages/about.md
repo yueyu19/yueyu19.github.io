@@ -17,7 +17,7 @@ Optimizing trajectories within a split second
 [![IMAGE ALT TEXT HERE](/images/quad.png)](https://www.youtube.com/watch?v=DjMdEMswqn0)
 
 
-Data-driven control and poisoning attack
+Data-driven control and data poisoning attack
 ===
 
 Encouraging rivals to collaborate
