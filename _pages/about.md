@@ -14,7 +14,7 @@ I am a postdoc at the Oden Institute for Computational Engineering and Sciences,
 Optimizing trajectories within a split second
 ===
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DjMdEMswqn0/0.jpg)](https://www.youtube.com/watch?v=DjMdEMswqn0)
+[![IMAGE ALT TEXT HERE](/images/quad.png)](https://www.youtube.com/watch?v=DjMdEMswqn0)
 
 
 Data-driven control and poisoning attack
@@ -22,7 +22,7 @@ Data-driven control and poisoning attack
 
 Encouraging rivals to collaborate
 ===
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EvtPp_DWqgU/0.jpg)](https://www.youtube.com/watch?v=EvtPp_DWqgU)
+[![IMAGE ALT TEXT HERE](/images/route.png)](https://www.youtube.com/watch?v=EvtPp_DWqgU)
 
 
 
