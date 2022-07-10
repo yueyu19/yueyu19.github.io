@@ -20,7 +20,7 @@ Optimizing trajectories within a split second
 Data-driven control and data poisoning attack
 ===
 
-Encouraging rivals to collaborate
+Inverse games and bilevel optimization
 ===
 [![IMAGE ALT TEXT HERE](/images/route.png)](https://www.youtube.com/watch?v=EvtPp_DWqgU)
 
