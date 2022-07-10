@@ -22,7 +22,7 @@ Data-driven control and data poisoning attack
 
 Inverse games and bilevel optimization
 ===
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EvtPp_DWqgU/3.jpg)](https://www.youtube.com/watch?v=EvtPp_DWqgU)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EvtPp_DWqgU/0.jpg)](https://www.youtube.com/watch?v=EvtPp_DWqgU)
 
 
 
