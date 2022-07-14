@@ -17,9 +17,6 @@ Optimizing trajectories within a split second
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DjMdEMswqn0/0.jpg)](https://www.youtube.com/watch?v=DjMdEMswqn0)
 
 
-Data-driven control and data poisoning attack
-===
-
 Inverse games and bilevel optimization
 ===
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EvtPp_DWqgU/0.jpg)](https://www.youtube.com/watch?v=EvtPp_DWqgU)
