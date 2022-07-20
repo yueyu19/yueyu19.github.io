@@ -22,8 +22,9 @@ Optimizing trajectories within a split second
 
 Inverse games and bilevel optimization
 ===
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EvtPp_DWqgU/0.jpg)](https://www.youtube.com/watch?v=EvtPp_DWqgU)
 
-
+<p align = "center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EvtPp_DWqgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 
