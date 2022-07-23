@@ -25,7 +25,7 @@ Fast trajectory optimization is the key to for autonomous systems to operate in 
 Incentivizing rivals to collaborate
 ===
 
-How can we intelligently design the incentives that encourage rival autonomous systems to stop working at cross purposes? My research answers this question by leveraging tools from game theory and nonconvex optimization.
+How can we intelligently design the incentives that encourage rival agents to stop working at cross purposes? My research answers this question by leveraging tools from game theory and nonconvex optimization.
 
 <p align = "center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EvtPp_DWqgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
