@@ -14,8 +14,8 @@ author_profile: true
 ## Preprints
 
 * **Yue Yu**, Jonathan Salfity, David Fridovich-Keil, and Ufuk Topcu. "Inverse Matrix Games with Unique Nash Equilibrium." arXiv preprint arXiv:2207.08275 (2022). [[arXiv]](https://arxiv.org/pdf/2207.08275.pdf)
+* Shenghui Chen, Yigit E. Bayiz, David Fridovich-Keil, **Yue Yu**, and Ufuk Topcu. "Relationship Design for Socially Desirable Behavior in Static Games." arXiv preprint arXiv:2207.06392 (2022) [[arxiv]](https://arxiv.org/pdf/2207.06392.pdf).
 * **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Under review.
-
 
 ## Journal Papers
 
