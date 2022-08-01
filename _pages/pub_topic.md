@@ -34,6 +34,7 @@ author_profile: true
 
 ## Markove Decision Processes and Network Games
 * **Yue Yu**, Jonathan Salfity, David Fridovich-Keil, and Ufuk Topcu. "Inverse Matrix Games with Unique Nash Equilibrium." arXiv preprint arXiv:2207.08275 (2022). [[arXiv]](https://arxiv.org/pdf/2207.08275.pdf)
+* Shenghui Chen, Yigit E. Bayiz, David Fridovich-Keil, **Yue Yu**, and Ufuk Topcu. "Relationship Design for Socially Desirable Behavior in Static Games." arXiv preprint arXiv:2207.06392 (2022) [[arxiv]](https://arxiv.org/pdf/2207.06392.pdf).
 * Sarah HQ Li, **Yue Yu**, Dan Calderone, Lillian J. Ratliff, and Behcet Acikmese. "Adaptive Constraint Satisfaction for Markov Decision Process Congestion Games: Application to Transportation Networks." arXiv preprint arXiv:1907.08912 (2021). [[arXiv]](https://arxiv.org/pdf/1907.08912.pdf) Accepted to Automatica.
 * **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Under review.
 * **Yue Yu**, Dan Calderone, Sarah HQ Li, Lillian J. Ratliff, and Behcet Acikmese. "Variable demand and multi-commodity flow in Markovian network equilibrium." arXiv preprint arXiv:1901.08731 (2021). [[arXiv]](https://arxiv.org/pdf/1901.08731.pdf) accepted to Automatica.
