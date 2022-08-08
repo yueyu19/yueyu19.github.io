@@ -12,12 +12,11 @@ I am a postdoc at the Oden Institute for Computational Engineering and Sciences,
 
 
 
-Research Highlights
-===
+# Research Highlights
+
 My research aims to build autonomous systems in fast-changing, adverserial, and competitive environments. To this end, I develop theoretical and computational methods by combining tools from various fields, including optimization, control, game theory, and machine learning. Below, I summrize some of the highlights of my recent work.
 
-Optimizing trajectories within a split second
-==
+## Optimizing trajectories within a split second
 
 Fast trajectory optimization is the key to for autonomous systems to operate in fast-changing environments. My research help develop some of the fastest mathematical methods and numerical software for solving constrained convex trajectory optimization problems, reducing minutes of computation time to a split second. 
 
@@ -25,8 +24,7 @@ Fast trajectory optimization is the key to for autonomous systems to operate in 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DjMdEMswqn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-Incentivizing rivals to collaborate
-==
+## Incentivizing rivals to collaborate
 
 How can we intelligently design the incentives that encourage rival agents to stop working at cross purposes? My research answers this question by leveraging tools from game theory and nonconvex optimization.
 
