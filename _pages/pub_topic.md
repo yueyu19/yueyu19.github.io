@@ -28,7 +28,6 @@ author_profile: true
 
 ## Distributed Optimization
 
-* **Yue Yu**, and Behcet Acikmese. "RC circuits based distributed conditional gradient method." arXiv preprint arXiv:2003.06949 (2020). [[arXiv]](https://arxiv.org/pdf/2003.06949.pdf)
 * **Yue Yu**, and Behcet Acikmese. "RLC circuits-based distributed mirror descent method." IEEE Control Systems Letters 4, no. 3 (2020): 548-553. [[arXiv]](https://arxiv.org/pdf/1911.06273.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8993740)
 * **Yue Yu**, Behcet Acikmese, and Mehran Mesbahi. "Mass–spring–damper networks for distributed optimization in non-Euclidean spaces." Automatica 112 (2020): 108703 [[arXiv]](https://arxiv.org/pdf/1808.01999.pdf) [[website]](https://www.sciencedirect.com/science/article/pii/S0005109819305667?casa_token=BkKMaJwzXOUAAAAA:s6CNAdFXqRAxY3qDR4IXmPFy5vbAy9nz1YzYfYbdxMw6SYK_2zrTbiP7P8kFXRfK3mv-fi_5Jg)
 * **Yue Yu**, and Behcet Acikmese. "Stochastic Bregman parallel direction method of multipliers for distributed optimization." In 2019 IEEE Conference on Decision and Control, pp. 5550-5555. IEEE, 2019. [[arXiv]](https://arxiv.org/pdf/1902.09695.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/9029539?casa_token=KXuBzjFReGkAAAAA:ul6TSzYr6Y0kBmRuJSzoP51WSFQ1gUXsXAZ-yfkHy2k2786h9XyVYvJFbPxi1xJHESv0Oj9WmA)
