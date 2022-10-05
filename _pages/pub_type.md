@@ -17,7 +17,7 @@ author_profile: true
 * **Yue Yu**, Ruihan Zhao, Sandeep Chinchali, and Ufuk Topcu. "Poisoning Attacks Against Data-Driven Predictive Control." arXiv preprint arXiv:2209.09108 (2022). [[arxiv]](https://arxiv.org/pdf/2209.09108)
 * Yu, Yue, Kartik Nagpal, Skye Mceowen, Behçet Açıkmeşe, and Ufuk Topcu. "Real-Time Quadrotor Trajectory Optimization with Time-Triggered Corridor Constraints." arXiv preprint arXiv:2208.07259 (2022). [[arxiv]](https://arxiv.org/pdf/2208.07259).
 * Shenghui Chen, Yigit E. Bayiz, David Fridovich-Keil, **Yue Yu**, and Ufuk Topcu. "Relationship Design for Socially Desirable Behavior in Static Games." arXiv preprint arXiv:2207.06392 (2022) [[arxiv]](https://arxiv.org/pdf/2207.06392.pdf).
-* **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Under review.
+* **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf).
 
 ## Journal Papers
 
