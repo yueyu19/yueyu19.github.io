@@ -4,7 +4,7 @@ collection: teaching
 type: "Convex optimization"
 permalink: /teaching/law-of-cosines
 venue: online
-date: 2021-10-01
+date: 2021-10-03
 location: "Austin, Texas"
 mathjax: true
 ---
