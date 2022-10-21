@@ -4,7 +4,7 @@ collection: teaching
 type: "Convex optimization"
 permalink: /teaching/projection
 venue: online
-date: 2021-10-03
+date: 2021-10-02
 location: "Austin, Texas"
 mathjax: true
 ---
