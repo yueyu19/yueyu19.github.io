@@ -4,7 +4,7 @@ collection: teaching
 type: "Network optimization"
 permalink: /teaching/traffic
 venue: online
-date: 2021-10-03
+date: 2021-10-01
 location: "Austin, Texas"
 mathjax: true
 ---
