@@ -57,7 +57,7 @@ $$ B_f(x, y)=f(x)-f(y)-\langle \nabla f(y), x-y\rangle.$$
   
 Using the above definition, you can verify that the following equation holds:
   
-$$ \langle \nabla f(x)-\nabla f(y), z-x\rangle=B_f(z, y)-B_f(z, x)- B-f(x, y). $$  
+$$ \langle \nabla f(x)-\nabla f(y), z-x\rangle=B_f(z, y)-B_f(z, x)- B_f(x, y). $$  
   
 The above equation is also known at the **three-point property of Bregman divergence**. You can check that equation (1) is in fact the special case of equation (2) where
 
