@@ -21,7 +21,7 @@ My research aims to build autonomous systems that adapt fast, counter adversarie
 Fast trajectory optimization is the key to for autonomous systems to operate in fast-changing environments. My research help develop some of the fastest mathematical methods and numerical software for solving constrained convex trajectory optimization problems, reducing minutes of computation time to a split second. 
 
 <p align = "center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=4IBCsSQc8c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DjMdEMswqn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 ## Poisoning attacks against data-driven control
@@ -29,7 +29,7 @@ Fast trajectory optimization is the key to for autonomous systems to operate in 
 Data enable us to control systems with unknown dynamics. But How vunlnerable is our data-driven controller against malicious attacks aginst our data? My research identifies and evaluates the threats of poisoning attacks aginst data-driven controllers. 
 
 <p align = "center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=4IBCsSQc8c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4IBCsSQc8c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 ## Incentive design in noncooperative games
