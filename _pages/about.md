@@ -29,7 +29,7 @@ Fast trajectory optimization is the key to for autonomous systems to operate in 
 Data enable us to control systems with unknown dynamics. But How vunlnerable is our data-driven controller against malicious attacks aginst our data? My research identifies and evaluates the threats of poisoning attacks aginst data-driven controllers. 
 
 <p align = "center">
-<iframe width="560" height="315" src="https://youtu.be/4IBCsSQc8c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=4IBCsSQc8c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 ## Incentive design in noncooperative games
