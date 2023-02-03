@@ -14,10 +14,10 @@ author_profile: true
 ## 2023
 
 
-* Yu, Yue, Kartik Nagpal, Skye Mceowen, Behçet Açıkmeşe, and Ufuk Topcu. "Real-Time Quadrotor Trajectory Optimization with Time-Triggered Corridor Constraints." arXiv preprint arXiv:2208.07259 (2022). [[arxiv]](https://arxiv.org/pdf/2208.07259) Accepted to Journal of Journal of Guidance, Control, and Dynamics.
-* **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Accepted to IEEE Transactions on Control of Network Systems.
-* **Yue Yu**, Shenghui Chen, David Fridovich-Keil, and Ufuk Topcu. "Cost Design in Atomic Routing Games." arXiv preprint 	arXiv:2210.01221 (2022). [[arXiv]](https://arxiv.org/pdf/2210.01221.pdf) Accepted to American Control COnference. 
-* **Yue Yu**, Ruihan Zhao, Sandeep Chinchali, and Ufuk Topcu. "Poisoning Attacks Against Data-Driven Predictive Control." arXiv preprint arXiv:2209.09108 (2022). [[arxiv]](https://arxiv.org/pdf/2209.09108) Accepted to American Control COnference. 
+* **Yu, Yue**, Kartik Nagpal, Skye Mceowen, Behçet Açıkmeşe, and Ufuk Topcu. "Real-Time Quadrotor Trajectory Optimization with Time-Triggered Corridor Constraints." arXiv preprint arXiv:2208.07259 (2023). [[arxiv]](https://arxiv.org/pdf/2208.07259) Accepted to Journal of Journal of Guidance, Control, and Dynamics.
+* **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2023). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Accepted to IEEE Transactions on Control of Network Systems.
+* **Yue Yu**, Shenghui Chen, David Fridovich-Keil, and Ufuk Topcu. "Cost Design in Atomic Routing Games." arXiv preprint 	arXiv:2210.01221 (2023). [[arXiv]](https://arxiv.org/pdf/2210.01221.pdf) Accepted to American Control Conference. 
+* **Yue Yu**, Ruihan Zhao, Sandeep Chinchali, and Ufuk Topcu. "Poisoning Attacks Against Data-Driven Predictive Control." arXiv preprint arXiv:2209.09108 (2023). [[arxiv]](https://arxiv.org/pdf/2209.09108) Accepted to American Control Conference. 
 
 ## 2022
 
