@@ -23,7 +23,7 @@ author_profile: true
 
 ## Data-Driven Control
 * **Yue Yu**, Shahriar Talebi, Henk J. van Waarde, Ufuk Topcu, Mehran Mesbahi, and Behcet Acikmese. "On controllability and persistency of excitation in data-driven control: Extensions of Willems' fundamental lemma." arXiv preprint arXiv:2102.02953 (2021). [[arXiv]](https://arxiv.org/pdf/2102.02953.pdf) Accepted to 2021 IEEE Conference on Decision and Control.
-* **Yue Yu**, Ruihan Zhao, Sandeep Chinchali, and Ufuk Topcu. "Poisoning Attacks Against Data-Driven Predictive Control." arXiv preprint arXiv:2209.09108 (2022). [[arxiv]](https://arxiv.org/pdf/2209.09108) Accepted to American Control COnference. 
+* **Yue Yu**, Ruihan Zhao, Sandeep Chinchali, and Ufuk Topcu. "Poisoning Attacks Against Data-Driven Predictive Control." arXiv preprint arXiv:2209.09108 (2022). [[arxiv]](https://arxiv.org/pdf/2209.09108) Accepted to American Control Conference. 
 
 ## Distributed Optimization
 
