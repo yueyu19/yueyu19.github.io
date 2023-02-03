@@ -12,15 +12,14 @@ author_profile: true
 [[Sort by year]](publications.md) [[Sort by type]](pub_type.md) [[Sort by topic]](pub_topic.md)
 
 ## Preprints
-
-* **Yue Yu**, Shenghui Chen, David Fridovich-Keil, and Ufuk Topcu. "Cost Design in Atomic Routing Games." arXiv preprint 	arXiv:2210.01221 (2022). [[arXiv]](https://arxiv.org/pdf/2210.01221.pdf). 
-* **Yue Yu**, Ruihan Zhao, Sandeep Chinchali, and Ufuk Topcu. "Poisoning Attacks Against Data-Driven Predictive Control." arXiv preprint arXiv:2209.09108 (2022). [[arxiv]](https://arxiv.org/pdf/2209.09108)
-* Yu, Yue, Kartik Nagpal, Skye Mceowen, Behçet Açıkmeşe, and Ufuk Topcu. "Real-Time Quadrotor Trajectory Optimization with Time-Triggered Corridor Constraints." arXiv preprint arXiv:2208.07259 (2022). [[arxiv]](https://arxiv.org/pdf/2208.07259).
+ 
 * Shenghui Chen, Yigit E. Bayiz, David Fridovich-Keil, **Yue Yu**, and Ufuk Topcu. "Relationship Design for Socially Desirable Behavior in Static Games." arXiv preprint arXiv:2207.06392 (2022) [[arxiv]](https://arxiv.org/pdf/2207.06392.pdf).
-* **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2022). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf).
+
 
 ## Journal Papers
 
+* **Yu, Yue**, Kartik Nagpal, Skye Mceowen, Behçet Açıkmeşe, and Ufuk Topcu. "Real-Time Quadrotor Trajectory Optimization with Time-Triggered Corridor Constraints." arXiv preprint arXiv:2208.07259 (2023). [[arxiv]](https://arxiv.org/pdf/2208.07259) Accepted to Journal of Journal of Guidance, Control, and Dynamics.
+* **Yue Yu**, Mengyuan Wang, Mehran Mesbahi, and Ufuk Topcu. "Vertiport Selection in Hybrid Air-Ground Transportation Networks via Mathematical Programs with Equilibrium Constraints." arXiv preprint arXiv:2203.05702 (2023). [[arXiv]](https://arxiv.org/pdf/2203.05702.pdf) Accepted to IEEE Transactions on Control of Network Systems.
 * **Yue Yu**, Jonathan Salfity, David Fridovich-Keil, and Ufuk Topcu. "Inverse Matrix Games with Unique Quantal Response Equilibrium." arXiv preprint arXiv:2207.08275 (2022). [[arXiv]](https://arxiv.org/pdf/2207.08275.pdf) Accepted to IEEE Control Systems Letters.
 * **Yue Yu**, Purnanand Elango, Behçet Açıkmeşe, and Ufuk Topcu. "Extrapolated Proportional-Integral Projected Gradient Method for Conic Optimization." arXiv preprint arXiv:2203.04188 (2022). [[arXiv]](https://arxiv.org/pdf/2203.04188.pdf) Accepted to IEEE Control Systems Letters.
 * Sarah HQ Li, **Yue Yu**, Dan Calderone, Lillian J. Ratliff, and Behcet Acikmese. "Adaptive Constraint Satisfaction for Markov Decision Process Congestion Games: Application to Transportation Networks." arXiv preprint arXiv:1907.08912 (2021). [[arXiv]](https://arxiv.org/pdf/1907.08912.pdf) Accepted to Automatica.
@@ -36,6 +35,8 @@ author_profile: true
 
 ## Conference Proceedings
 
+* **Yue Yu**, Shenghui Chen, David Fridovich-Keil, and Ufuk Topcu. "Cost Design in Atomic Routing Games." arXiv preprint 	arXiv:2210.01221 (2022). [[arXiv]](https://arxiv.org/pdf/2210.01221.pdf) Accepted to American Control Conference. 
+* **Yue Yu**, Ruihan Zhao, Sandeep Chinchali, and Ufuk Topcu. "Poisoning Attacks Against Data-Driven Predictive Control." arXiv preprint arXiv:2209.09108 (2022). [[arxiv]](https://arxiv.org/pdf/2209.09108) Accepted to American Control Conference.
 * Purnanand Elango, Abhinav Kamath, **Yue Yu**, John M. Carson, and Behcet Acikmese. "A Customised First-Order Solver for Real-Time Powered-Descent Guidance." In AIAA SCITECH 2022 Forum, p. 0951. 2022. [[website]](https://arc.aiaa.org/doi/abs/10.2514/6.2022-0951)
 * **Yue Yu**, Shahriar Talebi, Henk J. van Waarde, Ufuk Topcu, Mehran Mesbahi, and Behcet Acikmese. "On controllability and persistency of excitation in data-driven control: Extensions of Willems' fundamental lemma." arXiv preprint arXiv:2102.02953 (2021). [[arXiv]](https://arxiv.org/pdf/2102.02953.pdf) Accepted to 2021 IEEE Conference on Decision and Control.
 * Sarah HQ Li, **Yue Yu**, Daniel Calderone, Lillian Ratliff, and Behcet Acikmese. "Tolling for constraint satisfaction in Markov decision process congestion games." In 2019 American Control Conference, pp. 1238-1243. IEEE, 2019. [[arXiv]](https://arxiv.org/pdf/1903.00747.pdf) [[website]](https://ieeexplore.ieee.org/abstract/document/8814925/?casa_token=ahnd0VNwc0EAAAAA:M4-d3ZQwqh3z8z3QFDQNxbxSTfhfwffMphToUT3jUKuiamR1Gwc19dtObNxjYYCBzGBST865lQ)
